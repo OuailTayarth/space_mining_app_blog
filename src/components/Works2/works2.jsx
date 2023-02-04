@@ -27,16 +27,16 @@ const Works2 = ({ sliderRef }) => {
       <Head>
         <link rel="stylesheet" href="/css/ionicons.min.css" />
       </Head>
-      <section className="work-carousel section-padding caroul position-re pb-0">
+      <section className="work-carousel section-padding-collection caroul position-re pb-90">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div className="sec-head  text-center">
                 <h6 className="wow fadeIn" data-wow-delay=".5s">
-                  Latest Work
+                  Our Art
                 </h6>
                 <h3 className="wow color-font">
-                  Our Recent Web Design &amp; <br /> Some Past Projects.
+                  Mint Your NFT &amp; <br /> and Join Our Amazing Community.
                 </h3>
               </div>
             </div>
@@ -101,7 +101,7 @@ const Works2 = ({ sliderRef }) => {
                           <div
                             className="item-img bg-img wow imago"
                             style={{
-                              backgroundImage: "url(/img/portfolio/curs/1.jpg)",
+                              backgroundImage: "url(/img/collection/Choice1.jpg)",
                             }}
                           ></div>
                           <div className="cont bgbox">
@@ -130,7 +130,7 @@ const Works2 = ({ sliderRef }) => {
                           <div
                             className="item-img bg-img wow imago"
                             style={{
-                              backgroundImage: "url(/img/portfolio/curs/2.jpg)",
+                              backgroundImage: "url(/img/collection/Choice2.jpg)",
                             }}
                           ></div>
                           <div className="cont bgbox">
@@ -159,7 +159,7 @@ const Works2 = ({ sliderRef }) => {
                           <div
                             className="item-img bg-img wow imago"
                             style={{
-                              backgroundImage: "url(/img/portfolio/curs/3.jpg)",
+                              backgroundImage: "url(/img/collection/Choice7.jpg)",
                             }}
                           ></div>
                           <div className="cont bgbox">
@@ -188,7 +188,7 @@ const Works2 = ({ sliderRef }) => {
                           <div
                             className="item-img bg-img wow imago"
                             style={{
-                              backgroundImage: "url(/img/portfolio/curs/4.jpg)",
+                              backgroundImage: "url(/img/collection/Choice4.jpg)",
                             }}
                           ></div>
                           <div className="cont bgbox">
@@ -217,7 +217,7 @@ const Works2 = ({ sliderRef }) => {
                           <div
                             className="item-img bg-img wow imago"
                             style={{
-                              backgroundImage: "url(/img/portfolio/curs/5.jpg)",
+                              backgroundImage: "url(/img/collection/Choice3.jpg)",
                             }}
                           ></div>
                           <div className="cont bgbox">

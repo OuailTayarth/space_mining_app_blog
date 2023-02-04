@@ -13,12 +13,12 @@ const MinimalArea = () => {
   return (
     <section className="min-area sub-bg">
       <div className="container">
-        <div className="row">
+        <div className="row row-reverte">
           <div className="col-lg-6">
             <div className="img">
               <img
                 className="thumparallax-down"
-                src="/img/min-area.jpg"
+                src="/img/mobile-app/Choice2.jpg"
                 alt=""
               />
             </div>
@@ -27,33 +27,18 @@ const MinimalArea = () => {
             <div className="content pt-0">
               <h4 className="wow color-font">About us.</h4>
               <p className="wow txt" data-splitting>
-                Our creative Ad agency is ranked among the finest in the US. We
-                cultivate smart ideas for start-ups and seasoned players.
+              Space Mining NFT Collection is a unique and exciting venture in the world of non-fungible tokens (NFTs).
+               Our mission is to offer collectors a chance to own pieces of space-mined minerals and artifacts, verified on the blockchain for authenticity and scarcity. The collection features rare and precious items from the depths of our solar system, including meteorites, moon rocks, and asteroids. With cutting-edge technology and a deep respect for space exploration, we're proud to offer a truly one-of-a-kind NFT experience.
+               Join us on this journey and add a piece of the cosmos to your collection today...
               </p>
               <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
-                  <h6>
-                    <span>1</span> Our Mission
-                  </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
                 </li>
+
                 <li className="wow fadeInUp" data-wow-delay=".4s">
-                  <h6>
-                    <span>2</span> Our Goals
-                  </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
                 </li>
+
                 <li className="wow fadeInUp" data-wow-delay=".6s">
-                  <h6>
-                    <span>3</span> Why Us?
-                  </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
                 </li>
               </ul>
             </div>

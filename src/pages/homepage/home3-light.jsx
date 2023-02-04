@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
 
 
-const Homepage3 = () => {
+const LandingPage = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
@@ -24,13 +24,14 @@ const Homepage3 = () => {
       }
     });
   }, [navbarRef]);
+
   return (
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <Intro3 />
+      <Intro3/>
       <Footer hideBGCOLOR />
     </LightTheme>
   );
 };
 
-export default Homepage3;
+export default LandingPage;

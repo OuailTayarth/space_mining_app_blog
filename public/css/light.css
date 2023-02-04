@@ -294,7 +294,13 @@ span:hover {
 }
 
 .section-padding {
-  padding: 120px 0;
+  min-height: 100vh;
+  padding: 150px 0px 100px 0px;
+}
+
+.section-padding-collection {
+  min-height: 100vh;
+  padding: 80px 0px 100px 0px;
 }
 
 .section-ptb {
@@ -316,6 +322,8 @@ span:hover {
 .head-pb {
   padding: 0 0 80px;
 }
+
+
 
 .rounded {
   border-radius: 5px;
@@ -344,6 +352,10 @@ span:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.about-img {
+  border-radius: 10px;
 }
 
 .primery-shadow {
@@ -2689,7 +2701,8 @@ body {
 .slider-stwo {
   min-height: 100vh;
   position: relative;
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  padding: 130px 0px 100px 0px;
 }
 
 .slider-stwo:after {
@@ -2822,6 +2835,7 @@ body {
 .particles .cont h1 {
   font-size: 90px;
   font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .arch-slider {
@@ -4092,13 +4106,23 @@ body {
   font-weight: 700;
 }
 
-.about-us .img {
-  padding-left: 150px;
-  padding-right: 50px;
-  position: relative;
+#mt-23 {
+  margin-top: 23px !important;
 }
 
-.about-us .img:before {
+#about-p {
+  color: #000;
+}
+
+.about-us .img {
+  padding-left: 90px;
+  padding-right: 50px;
+  position: relative;
+  border-radius: 10px;
+}
+
+
+/* .about-us .img:before {
   content: "";
   position: absolute;
   top: -50px;
@@ -4109,7 +4133,7 @@ body {
   background-repeat: repeat;
   opacity: 0.3;
   z-index: -1;
-}
+} */
 
 .about-us .img .stauts {
   position: absolute;

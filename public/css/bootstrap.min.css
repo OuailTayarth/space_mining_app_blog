@@ -215,6 +215,7 @@ samp {
   font-size: 1em;
 }
 
+
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -259,6 +260,15 @@ label {
 button {
   border-radius: 0;
 }
+
+
+#about-img {
+  border-radius: 10px;
+}
+
+/* .row.row-reverse {
+  flex-direction: row-reverse;
+} */
 
 button:focus {
   outline: 1px dotted;

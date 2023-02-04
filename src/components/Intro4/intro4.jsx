@@ -11,9 +11,11 @@ const Intro4 = ({ sliderRef, blackStar }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1>
-                <span className="color-font">Creativity</span> is the process of
-                having <span className="color-font">original ideas</span>.
+              Space Mining  <br/> The NFT Collection <br/> from the Final Frontier
               </h1>
+              <div className="mint-btn">
+                <a class="butn bord menu curve" href="#">MINT YOUR NFT</a>
+              </div>
             </div>
           </div>
         </div>
