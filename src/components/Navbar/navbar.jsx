@@ -114,7 +114,7 @@ const Navbar = ({ lr, nr, theme }) => {
             </li>
 
             <li className="nav-item">
-              <Link href={`/about/about-dark`}>
+              <Link href={`/blog-details/blog-details-light`}>
                 <a className="nav-link">Scholarship</a>
               </Link>
             </li>
@@ -176,17 +176,19 @@ const Navbar = ({ lr, nr, theme }) => {
               </div>
             </li> */}
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link href={`/contact/contact-dark`}>
                 <a className="nav-link">Contact</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
+
+        <div className="connect-btn">
+             <a class="butn bord menu curve white" href="#"><span>Connect Wallet</span></a>
+        </div>
           
         </div>
-        <div className="connect-btn">
-             <a class="butn bord menu curve" href="#"><span>Connect Wallet</span></a>
-          </div>
+        
       </div>
     </nav>
   );

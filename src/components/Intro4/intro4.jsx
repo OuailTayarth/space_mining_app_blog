@@ -14,20 +14,20 @@ const Intro4 = ({ sliderRef, blackStar }) => {
               NFT collection <br/> from the Final Frontier <br/> 
               </h1>
               <div className="mint-btn">
-                <a class="butn bord menu curve" href="#">MINT YOUR NFT</a>
+                <a class="butn bord menu curve white" href="#">MINT YOUR NFT</a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <Particles
+      {/* <Particles
         id="particles-js"
         options={blackStar ? particlesBlackConfig : particlesConfig}
-      />
+      /> */}
 
-        <div className="gradient-circle"></div>
-        <div className="gradient-circle two"></div>
+        {/* <div className="gradient-circle"></div>
+        <div className="gradient-circle two"></div> */}
       <div className="line bottom left"></div>
     </header>
   );

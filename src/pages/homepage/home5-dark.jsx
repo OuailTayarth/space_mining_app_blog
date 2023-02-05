@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
+import DarkTheme from "../../layouts/Dark";
 import Works2 from "../../components/Works2/works2";
 import Intro4 from "../../components/Intro4/intro4";
 
@@ -28,7 +29,7 @@ const Homepage5 = () => {
 
   return (
     <LightTheme>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
+      <Navbar nr={navbarRef} lr={logoRef} />
       <Intro4 />
       <Works2 />
       <Footer />

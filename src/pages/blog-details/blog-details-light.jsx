@@ -36,8 +36,8 @@ const BlogDetailsLight = () => {
       </div>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <PageHeader
-        title="Blog Details."
-        paragraph="All the most current news and events of our creative team."
+        title="NFT-Supported Scholarships."
+        paragraph="Scholarships funded by NFT revenues are a new and innovative."
       />
           <BlogDetails theme="light" blog={"blog"} />
           <Footer />

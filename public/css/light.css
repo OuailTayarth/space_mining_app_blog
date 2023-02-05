@@ -189,17 +189,7 @@ span:hover {
   position: absolute;
   height: 1px;
   width: 65%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#12c2e9),
-    color-stop(#c471ed),
-    to(#f64f59)
-  );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: #111;
 }
 
 .line.top {
@@ -1753,8 +1743,18 @@ body {
   color: #111;
 }
 
-.butn.curve {
-  border-radius: 5px;
+.butn.curve.white {
+  border-radius: 4px;
+  background: #fff;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+
+
+.butn.curve.white:hover {
+  background: #000;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .butn.radius {
@@ -2850,6 +2850,7 @@ body {
   font-size: 90px;
   font-weight: 800;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .arch-slider {
@@ -3433,7 +3434,9 @@ body {
 
 .circle-bg {
   position: relative;
+  background-color: #000;
 }
+
 
 .circle-bg .circle-color {
   position: absolute;
@@ -4858,6 +4861,10 @@ body {
   z-index: 3;
 }
 
+.mint-btn a {
+  font-size: 30;
+}
+
 .min-area .img:after {
   content: "";
   position: absolute;
@@ -5766,6 +5773,8 @@ body {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
+  display: none;
+
 }
 
 .work-carousel.caroul .content .bgbox {
@@ -8071,9 +8080,23 @@ body {
 /* ====================== [ Start Footer ] ====================== */
 footer {
   color: #fff;
-  padding: 100px 0;
+  padding: 25px 0;
   background: #18191d;
 }
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+footer .container .logo-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: revert;
+}
+
 
 footer.sub-bg {
   background: #18191d;
@@ -8260,6 +8283,10 @@ footer .item .copy-right p a {
     -webkit-box-ordinal-group: 3 !important;
     -ms-flex-order: 2 !important;
     order: 2 !important;
+  }
+
+  .connect-btn .butn.curve {
+    display: none;
   }
 
   .order1 {
@@ -9254,9 +9281,14 @@ section.testimonials.section-padding {
 .slick-next {
   display: none !important;
 }
-header.particles.circle-bg.valign {
+
+/* header.particles.circle-bg.valign {
   overflow: hidden;
-}
+  background-image: url(/img/bg/Nasa.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 div#particles-js {
   position: absolute;

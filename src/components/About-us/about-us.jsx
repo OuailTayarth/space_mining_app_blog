@@ -31,7 +31,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="col-lg-6 img">
-            <img src="/img/mobile-app/Choice1.jpg" alt="" id="about-img" />
+            <img src="/img/mobile-app/Choice3.jpg" alt="" id="about-img" />
             {/* <div className="stauts">
               {AboutUs1Date.stauts.map((item) => (
                 <div className="item" key={item.id}>

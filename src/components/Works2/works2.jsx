@@ -104,24 +104,9 @@ const Works2 = ({ sliderRef }) => {
                               backgroundImage: "url(/img/collection/Choice1.jpg)",
                             }}
                           ></div>
-                          <div className="cont bgbox">
-                            <h6>
-                              <Link
-                                href={`/works2/works2-dark`}
-                              >
-                                <a>art &amp; illustration</a>
-                              </Link>
-                            </h6>
-                            <h4>
-                              <Link
-                                href={`/project-details2/project-details2-dark`}
-                              >
-                                <a>Innovation and Crafts.</a>
-                              </Link>
-                            </h4>
-                          </div>
                         </div>
                       </SwiperSlide>
+
                       <SwiperSlide className="swiper-slide">
                         <div
                           className="content wow fadeInUp"
@@ -133,22 +118,6 @@ const Works2 = ({ sliderRef }) => {
                               backgroundImage: "url(/img/collection/Choice2.jpg)",
                             }}
                           ></div>
-                          <div className="cont bgbox">
-                            <h6>
-                              <Link
-                                href={`/works2/works2-dark`}
-                              >
-                                <a>art &amp; illustration</a>
-                              </Link>
-                            </h6>
-                            <h4>
-                              <Link
-                                href={`/project-details2/project-details2-dark`}
-                              >
-                                <a>Inspiring new space.</a>
-                              </Link>
-                            </h4>
-                          </div>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide className="swiper-slide">
@@ -162,22 +131,7 @@ const Works2 = ({ sliderRef }) => {
                               backgroundImage: "url(/img/collection/Choice7.jpg)",
                             }}
                           ></div>
-                          <div className="cont bgbox">
-                            <h6>
-                              <Link
-                                href={`/works2/works2-dark`}
-                              >
-                                <a>art &amp; illustration</a>
-                              </Link>
-                            </h6>
-                            <h4>
-                              <Link
-                                href={`/project-details2/project-details2-dark`}
-                              >
-                                <a>Natural plus modern.</a>
-                              </Link>
-                            </h4>
-                          </div>
+
                         </div>
                       </SwiperSlide>
                       <SwiperSlide className="swiper-slide">
@@ -191,22 +145,7 @@ const Works2 = ({ sliderRef }) => {
                               backgroundImage: "url(/img/collection/Choice4.jpg)",
                             }}
                           ></div>
-                          <div className="cont bgbox">
-                            <h6>
-                              <Link
-                                href={`/works2/works2-dark`}
-                              >
-                                <a>art &amp; illustration</a>
-                              </Link>
-                            </h6>
-                            <h4>
-                              <Link
-                                href={`/project-details2/project-details2-dark`}
-                              >
-                                <a>Innovation and Crafts.</a>
-                              </Link>
-                            </h4>
-                          </div>
+                          
                         </div>
                       </SwiperSlide>
                       <SwiperSlide className="swiper-slide">
@@ -220,22 +159,6 @@ const Works2 = ({ sliderRef }) => {
                               backgroundImage: "url(/img/collection/Choice3.jpg)",
                             }}
                           ></div>
-                          <div className="cont bgbox">
-                            <h6>
-                              <Link
-                                href={`/works2/works2-dark`}
-                              >
-                                <a>art &amp; illustration</a>
-                              </Link>
-                            </h6>
-                            <h4>
-                              <Link
-                                href={`/project-details2/project-details2-dark`}
-                              >
-                                <a>Inspiring new space.</a>
-                              </Link>
-                            </h4>
-                          </div>
                         </div>
                       </SwiperSlide>
                     </Swiper>
