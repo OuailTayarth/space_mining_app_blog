@@ -26,19 +26,19 @@ const BlogStanderd = ({ blogs }) => {
                   <div className="content">
                     <div className="row justify-content-center">
                       <div className="col-10">
-                        <Link href={`/blog/blog-dark`}>
+                        {/* <Link href={`/blog/blog-dark`}>
                           <a className="date">
                             <span className="num">{blogItem.date.day}</span>
                             <span>{blogItem.date.month}</span>
                           </a>
-                        </Link>
-                        <div className="tags">
+                        </Link> */}
+                        {/* <div className="tags">
                           {blogItem.tags.map((tag, index) => (
                             <Link key={index} href="/blog/blog-dark">
                               {tag}
                             </Link>
                           ))}
-                        </div>
+                        </div> */}
                         <h4 className="title">
                           <Link href={`/blog-details/blog-details-dark`}>
                             {blogItem.title}
@@ -55,13 +55,14 @@ const BlogStanderd = ({ blogs }) => {
               ))}
               <div className="pagination">
                 <span className="active">
-                  <Link href={`/blog/blog-dark`}>1</Link>
+                  <Link href="#">1</Link>
                 </span>
                 <span>
-                  <Link href={`/blog/blog-dark`}>2</Link>
+                  {/* <Link href={`/blog/blog-dark`}>2</Link> */}
+                  <Link href="#">2</Link>
                 </span>
                 <span>
-                  <Link href={`/blog/blog-dark`}>
+                  <Link href="#">
                     <a>
                       <i className="fas fa-angle-right"></i>
                     </a>

@@ -35,7 +35,7 @@ const Works2 = ({ sliderRef }) => {
                 <h6 className="wow fadeIn" data-wow-delay=".5s">
                   Our Art
                 </h6>
-                <h3 className="wow color-font">
+                <h3 className="wow">
                   Mint Your NFT &amp; <br /> and Join Our Amazing Community.
                 </h3>
               </div>

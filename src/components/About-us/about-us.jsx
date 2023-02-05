@@ -10,10 +10,10 @@ const AboutUs = () => {
         <div className="row row-reverse">
           <div className="col-lg-5 valign md-mb50">
             <div className="mb-50" id="mt-23">
-              <h6 className="fw-100 text-u ls10 mb-10">
+              <h6 id="aboutTitle">
                 ABOUT US
               </h6>
-              <h3 className="fw-600 text-u ls1 mb-10 color-font">
+              <h3 className="fw-600 text-u ls1 mb-10 color-font-black">
                 Space Mining
               </h3>
 

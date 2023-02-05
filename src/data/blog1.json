@@ -1,10 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b1.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "The Future of Space Mining: Opportunities and Challenges",
+    "content": "Space mining is the process of extracting valuable materials and resources from celestial bodies such as asteroids, the moon, and other planets. It has the potential to revolutionize the way we think about resource availability and provide us with an abundance of rare minerals and elements that are difficult to find on Earth. The development of space mining technologies and methodologies is an ongoing effort by private companies, government organizations",
+    "image": "/img/spaceblog/blog1.jpg",
     "date": {
       "day": "07",
       "month": "August"
@@ -12,10 +11,9 @@
   },
   {
     "id": 2,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b2.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "Exploring the Frontiers of Space Mining Technology",
+    "content": "Space mining is the process of extracting valuable materials and resources from celestial bodies such as asteroids, the moon, and other planets. It has the potential to revolutionize the way we think about resource availability and provide us with an abundance of rare minerals and elements that are difficult to find on Earth. The development of space mining technologies and methodologies is an ongoing effort by private companies, government organizations",
+    "image": "/img/spaceblog/blog2.jpg",
     "date": {
       "day": "07",
       "month": "August"
@@ -23,10 +21,9 @@
   },
   {
     "id": 3,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b3.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "The Economics of Space Mining: Exploring the Potential Returns",
+    "content": "Space mining is the process of extracting valuable materials and resources from celestial bodies such as asteroids, the moon, and other planets. It has the potential to revolutionize the way we think about resource availability and provide us with an abundance of rare minerals and elements that are difficult to find on Earth. The development of space mining technologies and methodologies is an ongoing effort by private companies, government organizations",
+    "image": "/img/spaceblog/blog3.jpg",
     "date": {
       "day": "07",
       "month": "August"
@@ -34,10 +31,9 @@
   },
   {
     "id": 4,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b4.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "Space Mining: Maximizing the Benefits for Humanity",
+    "content": "Space mining is the process of extracting valuable materials and resources from celestial bodies such as asteroids, the moon, and other planets. It has the potential to revolutionize the way we think about resource availability and provide us with an abundance of rare minerals and elements that are difficult to find on Earth. The development of space mining technologies and methodologies is an ongoing effort by private companies, government organizations",
+    "image": "/img/spaceblog/blog4.jpg",
     "date": {
       "day": "07",
       "month": "August"

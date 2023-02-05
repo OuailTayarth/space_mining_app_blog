@@ -36,8 +36,8 @@ const BlogLight = () => {
       </div>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <PageHeader
-        title="Our News."
-        paragraph="All the most current news and events of our creative team."
+        title="Space Mining Insights."
+        paragraph="Discover the latest information and fascinating facts about the exciting world of space resource mining."
       />
       <BlogStanderd blogs={blog1Data} />
       <Footer />
