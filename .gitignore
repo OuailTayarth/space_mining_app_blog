@@ -3,10 +3,10 @@
 /.pnp
 .pnp.js
 
+public/img/bg/Nasa.png
+
 # testing
 /coverage
-
-/public/img/bg/Nasa.png
 
 # next.js
 /.next/
@@ -32,3 +32,5 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+/log
