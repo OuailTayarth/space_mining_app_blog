@@ -90,31 +90,31 @@ const Navbar = ({ lr, nr, theme }) => {
             </li>
 
             <li className="nav-item">
-              <Link href={`/homepage/about`}>
+              <Link href={`/about`}>
                 <a className="nav-link">About</a>
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link href={`/homepage/home5-dark`}>
+              <Link href={`/nftcollection`}>
                 <a className="nav-link">NFT collection</a>
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link href={`/homepage/home2-light`}>
+              <Link href={`/team`}>
                 <a className="nav-link">Our Team</a>
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link href={`/blog/blog-light/`}>
+              <Link href={`/spaceminingInfo`}>
                 <a className="nav-link">Space Resource Mining Info/Facts</a>
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link href={`/blog-details/blog-details-light`}>
+              <Link href={`/scholarship`}>
                 <a className="nav-link">Scholarship</a>
               </Link>
             </li>

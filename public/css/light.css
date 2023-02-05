@@ -1277,11 +1277,12 @@ span:hover {
 
 /* ====================== [ End Text Animation & Images ] ====================== */
 /* ====================== [ Start Cursor Style ] ====================== */
-body {
+/* body {
   cursor: none;
-}
+} */
 
-.mouse-cursor {
+
+/* .mouse-cursor {
   position: fixed;
   left: 0;
   top: 0;
@@ -1333,7 +1334,7 @@ body {
 
 .cursor-outer.cursor-hover {
   opacity: 0;
-}
+} */
 
 /* ====================== [ End Cursor Style ] ====================== */
 /* ====================== [ Start progress-wrap ] ====================== */
@@ -6331,6 +6332,7 @@ body {
   -webkit-transform: rotate(4deg);
   -ms-transform: rotate(4deg);
   transform: rotate(4deg);
+  
 }
 
 .team .item.cir .img:hover #circle1,
@@ -6343,6 +6345,7 @@ body {
 
 .team .item.cir .img:hover:before {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .team .item.cir .img:after {
@@ -6397,7 +6400,7 @@ body {
 
 .team .item.cir .info span {
   font-size: 13px;
-  color: #12c2e9;
+  color: #fff;
 }
 
 .team .item .img {

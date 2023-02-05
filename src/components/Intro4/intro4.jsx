@@ -10,7 +10,7 @@ const Intro4 = ({ sliderRef, blackStar }) => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="cont text-center">
-              <h1>
+              <h1 className="wow fadeIn">
               NFT collection <br/> from the Final Frontier <br/> 
               </h1>
               <div className="mint-btn">

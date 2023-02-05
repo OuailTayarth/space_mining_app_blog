@@ -32,7 +32,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   </div>
                   <div className="copy-right">
                     <p>
-                      © 2023, Space Mining, All rights reserved.
+                      ©2023, Space Mining, All rights reserved.
                     </p>
                   </div>
                 </div>

@@ -1,11 +1,12 @@
 import React from "react";
-import Navbar from "../../components/Navbar/navbar";
-import Footer from "../../components/Footer/footer";
-import LightTheme from "../../layouts/Light";
-import Team2 from "../../components/Team2/team2";
+import Navbar from "../components/Navbar/navbar";
+import Footer from "../components/Footer/footer";
+import LightTheme from "../layouts/Light";
+import Works2 from "../components/Works2/works2";
+import Intro4 from "../components/Intro4/intro4";
 
 
-const Homepage2 = () => {
+const Homepage5 = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
@@ -24,14 +25,15 @@ const Homepage2 = () => {
       }
     });
   }, [navbarRef]);
-  
+
   return (
     <LightTheme>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <Team2 />
+      <Navbar nr={navbarRef} lr={logoRef} />
+      <Intro4 />
+      <Works2 />
       <Footer />
     </LightTheme>
   );
 };
 
-export default Homepage2;
+export default Homepage5;

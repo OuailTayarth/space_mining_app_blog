@@ -2,8 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Script from "next/script";
 import Cursor from "../components/cursor";
-import ScrollToTop from "../components/scrollToTop";
-import LoadingScreen from "../components/Loading-Screen";
 import "../styles/main.scss";
 
 function MyApp({ Component, pageProps }) {
@@ -13,7 +11,6 @@ function MyApp({ Component, pageProps }) {
         <title>Space Mining</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
-      <Cursor />
       <Component {...pageProps} />
       <Script id="wow" src="/js/wow.min.js"></Script>
       <Script
