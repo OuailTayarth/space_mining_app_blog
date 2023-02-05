@@ -6,6 +6,8 @@
 # testing
 /coverage
 
+/public/img
+
 # next.js
 /.next/
 /out/
