@@ -6,7 +6,7 @@
 # testing
 /coverage
 
-/public/img
+/public/img/bg/Nasa.png
 
 # next.js
 /.next/

@@ -18,7 +18,7 @@ const LoadingScreen = () => {
   });
   return (
     <>
-      <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
+      {/* <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
         <div className="loading">
           <span>L</span>
           <span>o</span>
@@ -29,7 +29,7 @@ const LoadingScreen = () => {
           <span>g</span>
         </div>
         <div id="preloader"></div>
-      </div>
+      </div> */}
       {appData.showLoading ? (
         <Script
           id="pace"

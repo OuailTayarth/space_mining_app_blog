@@ -14,9 +14,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Cursor />
-      <LoadingScreen />
       <Component {...pageProps} />
-      <ScrollToTop />
       <Script id="wow" src="/js/wow.min.js"></Script>
       <Script
         strategy="beforeInteractive"
