@@ -3,8 +3,6 @@
 /.pnp
 .pnp.js
 
-public/img/bg/Nasa.png
-
 # testing
 /coverage
 
