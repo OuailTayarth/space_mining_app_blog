@@ -48,6 +48,7 @@ const Intro3 = () => {
     }, 1000);
 
     return () => clearInterval(interval);
+    
   }, []);
 
   return (

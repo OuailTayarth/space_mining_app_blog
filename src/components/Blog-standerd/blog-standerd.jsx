@@ -17,7 +17,7 @@ const BlogStanderd = ({ blogs }) => {
                   key={blogItem.id}
                 >
                   <div className="img">
-                    <Link href={`/blog-details/blog-details-dark`}>
+                    <Link href="#">
                       <a>
                         <img src={blogItem.image} alt="" />
                       </a>
