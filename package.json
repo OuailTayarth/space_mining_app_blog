@@ -23,6 +23,7 @@
     "react-tsparticles": "^1.37.4",
     "react-visibility-sensor": "^5.1.1",
     "sass": "^1.45.0",
+    "simplelightbox": "^2.12.1",
     "slick-carousel": "^1.8.1",
     "swiper": "^7.3.0",
     "typewriter-effect": "^2.18.2"

@@ -296,6 +296,11 @@ span:hover {
 .section-padding-collection {
   min-height: 100vh;
   padding: 80px 0px 100px 0px;
+  background-color: #000;
+}
+
+#nft-collection-title {
+  color: #fff;
 }
 
 .section-ptb {
@@ -1746,16 +1751,17 @@ span:hover {
 
 .butn.curve.white {
   border-radius: 4px;
-  background: #fff;
+  background: #000;
+  color: #fff;
   font-weight: 500;
   letter-spacing: 0.1px;
 }
 
 
 .butn.curve.white:hover {
-  background: #000;
-  color: #fff;
-  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
 }
 
 .butn.radius {
@@ -1825,7 +1831,7 @@ span:hover {
 .navbar .navbar-nav .nav-link {
   font-size: 12px;
   font-weight: 500;
-  color: #fff;
+  color: #000;
   padding: 15px 7px;
   margin: 10px 5px;
 }
@@ -1953,7 +1959,7 @@ span:hover {
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 71px;
 }
 
 .nav-scroll {
@@ -2851,7 +2857,7 @@ span:hover {
   font-size: 90px;
   font-weight: 800;
   margin-bottom: 20px;
-  color: #fff;
+  color: #000;
 }
 
 .arch-slider {
@@ -3435,7 +3441,7 @@ span:hover {
 
 .circle-bg {
   position: relative;
-  background-color: #000;
+  background-color: #fff;
 }
 
 
@@ -6389,6 +6395,7 @@ span:hover {
 
 .team .item.cir .info {
   position: absolute;
+  top: 30px;
   bottom: 15px;
   left: 15px;
   opacity: 0;
@@ -6397,6 +6404,22 @@ span:hover {
   transition: all 0.4s;
   z-index: 2;
 }
+
+/* .team .item.cir .info {
+  position: absolute;
+  top: -146px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: 2;
+} */
 
 .team .item.cir .info span {
   font-size: 13px;
@@ -8719,7 +8742,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 40px;
+    width: 61px;
   }
 
   .hamenu .menu-links .main-menu > li {

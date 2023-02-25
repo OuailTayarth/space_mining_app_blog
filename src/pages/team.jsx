@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer";
 import LightTheme from "../layouts/Light";
 import Team2 from "../components/Team2/team2";
+import Team from "../components/Team/team";
 
 
 const Homepage2 = () => {

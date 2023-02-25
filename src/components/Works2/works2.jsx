@@ -32,10 +32,10 @@ const Works2 = ({ sliderRef }) => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div className="sec-head  text-center">
-                <h6 className="wow fadeIn" data-wow-delay=".5s">
+                <h6 className="wow fadeIn" data-wow-delay=".5s" id="nft-collection-title">
                   Our Art
                 </h6>
-                <h3 className="wow">
+                <h3 className="wow" id="nft-collection-title">
                   Mint Your NFT &amp; <br /> and Join Our Amazing Community.
                 </h3>
               </div>

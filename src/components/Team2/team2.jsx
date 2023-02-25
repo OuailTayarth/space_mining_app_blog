@@ -27,7 +27,18 @@ const Team2 = () => {
                 <img src="/img/teampic/team5.jpg" alt="" />
                 <div className="info">
                   <h6>Sarah Johnson</h6>
-                  <span>Professor</span>
+                  <span>Professor</span> <br></br>
+                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit elit <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  </span>
+                  
                 </div>
               </div>
             </div>
@@ -40,6 +51,16 @@ const Team2 = () => {
                 <div className="info">
                   <h6>Michael Rodriguez</h6>
                   <span>NFT artist</span>
+                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit elit <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  </span>
                 </div>
               </div>
             </div>
@@ -52,6 +73,16 @@ const Team2 = () => {
                 <div className="info">
                   <h6>Emily Davis</h6>
                   <span>Co-Founder</span>
+                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit elit <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  </span>
                 </div>
               </div>
             </div>

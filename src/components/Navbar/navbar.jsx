@@ -16,7 +16,7 @@ const Navbar = ({ lr, nr, theme }) => {
         <Link href="/">
           <a className="logo">
             <span></span>
-            {/* {theme ? (
+            {theme ? (
               theme === "themeL" ? (
                 <img ref={lr} src={appData.darkLogo} alt="logo" />
               ) : (
@@ -24,7 +24,7 @@ const Navbar = ({ lr, nr, theme }) => {
               )
             ) : (
               <img ref={lr} src={appData.lightLogo} alt="logo" />
-            )} */}
+            )}
           </a>
         </Link>
 
