@@ -3,8 +3,21 @@ import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
+import { useDispatch, useSelector } from "react-redux";
+import {connect} from "../../redux/blockchain/blockchainActions";
+import { fetchData } from "../../redux/data/dataActions";
 
 const Navbar = ({ lr, nr, theme }) => {
+  const dispatch = useDispatch();
+  const blockchain = useSelector((state) => state.blockchain);
+
+  // Fetch the accounts Redux/blockchain
+const getData = () => {
+  if (blockchain.account !== "" && blockchain.smartContract !== null) {
+    dispatch(fetchData(blockchain.account));
+    }
+};
+
   return (
     <nav
       ref={nr}
@@ -183,9 +196,27 @@ const Navbar = ({ lr, nr, theme }) => {
             </li> */}
           </ul>
 
-        <div className="connect-btn">
+        {/* <div className="connect-btn">
              <a class="butn bord menu curve white" href="#"><span>Connect Wallet</span></a>
-        </div>
+        </div> */}
+
+        <div className="connect-btn" onClick={()=> {
+                  dispatch(connect());
+                  getData();
+                }}>
+                  <a
+                    className="butn bord menu curve white"
+                    data-wow-delay=".5s"
+                  >
+                    <span className="account-address">
+                      {blockchain.walletConnected === false ? "Connect Wallet" : (
+                        <>
+                          {blockchain.account?.substring(0,15)}...
+                        </>
+                      )}
+                      </span>
+                  </a>                 
+                </div>
           
         </div>
         

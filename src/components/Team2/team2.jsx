@@ -11,7 +11,7 @@ const Team2 = () => {
               <h6 className="wow fadeIn" data-wow-delay=".5s">
                 Our Team
               </h6>
-              <h3 className="wow color-font-black">
+              <h3 className="wow color-font-black wow fadeIn">
                 Space exploration specialists &amp; and passionate educators.
               </h3>
             </div>
@@ -27,18 +27,12 @@ const Team2 = () => {
                 <img src="/img/teampic/team5.jpg" alt="" />
                 <div className="info">
                   <h6>Sarah Johnson</h6>
-                  <span>Professor</span> <br></br>
-                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit elit <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <h7>Professor</h7> <br></br>
+                  <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam velit
+                  <br></br> perspiciatis accusamus enim repellendus ea asperiores aut, laudantium hic,<br></br>
+                  vero quis ullam! Veniam quasi atque perspiciatis deserunt modi a accusantium! 
+                  <br></br> Magnam velit perspiciatis accusamus enim repellendus ea asperiores aut, laudantium hic.<br></br>                 
                   </span>
-                  
                 </div>
               </div>
             </div>
@@ -50,16 +44,11 @@ const Team2 = () => {
                 <img src="/img/teampic/team4.jpg" alt="" />
                 <div className="info">
                   <h6>Michael Rodriguez</h6>
-                  <span>NFT artist</span>
-                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit elit <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <h7>NFT artist</h7> <br></br>
+                  <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam velit
+                  <br></br> perspiciatis accusamus enim repellendus ea asperiores aut, laudantium hic,<br></br>
+                  vero quis ullam! Veniam quasi atque perspiciatis deserunt modi a accusantium! 
+                  <br></br> Magnam velit perspiciatis accusamus enim repellendus ea asperiores aut, laudantium hic.<br></br>                 
                   </span>
                 </div>
               </div>
@@ -72,16 +61,11 @@ const Team2 = () => {
                 <img src="/img/teampic/team3.jpg" alt="" />
                 <div className="info">
                   <h6>Emily Davis</h6>
-                  <span>Co-Founder</span>
-                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit elit <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  <br></br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br></br>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  <h7>Co-Founder</h7> <br></br>
+                  <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam velit
+                  <br></br> perspiciatis accusamus enim repellendus ea asperiores aut, laudantium hic,<br></br>
+                  vero quis ullam! Veniam quasi atque perspiciatis deserunt modi a accusantium! 
+                  <br></br> Magnam velit perspiciatis accusamus enim repellendus ea asperiores aut, laudantium hic.<br></br>                 
                   </span>
                 </div>
               </div>

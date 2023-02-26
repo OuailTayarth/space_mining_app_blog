@@ -2,6 +2,8 @@ import React from "react";
 import Head from "next/head";
 import Script from "next/script";
 import Cursor from "../components/cursor";
+import { Provider } from 'react-redux';
+import store from "../redux/store";
 import "../styles/main.scss";
 
 function MyApp({ Component, pageProps }) {
@@ -11,7 +13,10 @@ function MyApp({ Component, pageProps }) {
         <title>Space Mining</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
-      <Component {...pageProps} />
+      <Provider store={store}>
+        <Component {...pageProps} />
+      </Provider>
+
       <Script id="wow" src="/js/wow.min.js"></Script>
       <Script
         strategy="beforeInteractive"

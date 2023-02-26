@@ -120,7 +120,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.2;
   font-weight: 500;
 }
 
@@ -5077,10 +5077,20 @@ span:hover {
 /* ====================== [ Start Work ] ====================== */
 .portfolio {
   position: relative;
+  background: #000;
 }
 
 .portfolio .filtering {
   padding-left: 50px;
+}
+
+#collection-text {
+  line-height: 1.0;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .portfolio .filtering .filter {
@@ -5201,6 +5211,7 @@ span:hover {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  border-radius: 4px;
 }
 
 .portfolio .gallery .items .item-img .cont {
@@ -6327,6 +6338,10 @@ span:hover {
 
 .team .item {
   padding: 0 25px;
+}
+
+.team .item:hover{
+  cursor: pointer;
 }
 
 .team .item.cir .img {
@@ -8742,7 +8757,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 61px;
+    width: 77px;
   }
 
   .hamenu .menu-links .main-menu > li {
@@ -9346,6 +9361,10 @@ section.next-prog.section-padding {
   padding-left: 15px;
   display: flex;
   justify-content: flex-end;
+}
+
+.connect-btn:hover {
+  cursor: pointer;
 }
 
 #borderRaduis {

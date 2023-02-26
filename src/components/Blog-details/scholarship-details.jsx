@@ -1,17 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import {useRouter} from "next/router";
-import blog1Data from "../../data/blog1.json";
 
 
 const BlogDetails = ({ theme }) => {
   const messageRef = React.useRef(null);
-  const router = useRouter();
-  // get the id from the URL
-  const {id} = router.query;
-  // get a blog based on a specific Id
-  const blogItem = blog1Data.find((item) => item.id === parseInt(id));
-
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -29,22 +21,25 @@ const BlogDetails = ({ theme }) => {
           <div className="col-lg-11">
             <div className="post">
               <div className="img">
-                <img src={blogItem.image} alt="" />
+                <img src="/img/teampic/scholarship.jpg" alt="" />
               </div>
               <div className="content pt-60">
                 <div className="row justify-content-center">
                   <div className="col-lg-10">
                     <div className="cont">
                       <h4 className="extra-title">
-                      {blogItem.title}
+                      Scholarships funded by NFT revenues are a new and innovative.
                       </h4>
                       <div className="spacial">
                         <p>
-                        {blogItem.content}
+                        Scholarships funded by NFT revenues are a new and innovative way to finance education and support aspiring students.
+                         The concept involves the creation and sale of unique digital assets, known as NFTs,
+                         which can range from digital artwork to collectible items.
                         </p>
                       </div>
                       <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, atque repellat laudantium labore asperiores, porro eaque dolore nihil, amet incidunt blanditiis cum fugit velit nisi unde necessitatibus totam cupiditate aut perspiciatis ea autem suscipit? In incidunt pariatur iste culpa aspernatur atque reiciendis officia explicabo voluptatem delectus possimus cumque voluptatum maxime neque voluptas, aperiam non itaque sequi! Molestiae maxime impedit vel ipsa reiciendis beatae dolorum odit magnam. Amet aliquam non temporibus itaque inventore tenetur aspernatur consequatur voluptas optio atque laudantium neque labore, dolore, culpa sunt saepe mollitia ex recusandae doloribus. Temporibus, voluptas neque. Molestias obcaecati nisi at aut cumque neque sed.
+                      The revenue generated from the sale of these NFTs is then directed towards a scholarship program, providing students with financial assistance to further their education. This approach not only benefits the students, but also helps to promote the growth and development of the NFT market, creating a mutually beneficial relationship. With the increasing popularity of NFTs, it is likely that more and more scholarship programs will be funded in this manner in the future,
+                       making education accessible to a wider range of individuals.
                       </p>
                     </div>
                   </div>

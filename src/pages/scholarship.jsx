@@ -2,7 +2,7 @@ import React from "react";
 import blog3Data from "../data/blog3.json";
 import LightTheme from "../layouts/Light";
 import Navbar from "../components/Navbar/navbar";
-import BlogDetails from "../components/Blog-details/blog-details";
+import BlogDetails from "../components/Blog-details/scholarship-details";
 import PageHeader from "../components/Page-header/page-header";
 import Footer from "../components/Footer/footer";
 
@@ -39,7 +39,7 @@ const BlogDetailsLight = () => {
         title="NFT-Supported Scholarships."
         paragraph="Scholarships funded by NFT revenues are a new and innovative."
       />
-          <BlogDetails theme="light" blog={"blog"} />
+          <BlogDetails theme="dark" blog={"blog"} />
           <Footer />
     </LightTheme>
   );

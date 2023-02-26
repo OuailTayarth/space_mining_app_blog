@@ -1,12 +1,13 @@
 import React from "react";
-import blog3Data from "../../data/blog3.json";
-import DarkTheme from "../../layouts/Dark";
-import Navbar from "../../components/Navbar/navbar";
-import BlogDetails from "../../components/Blog-details/blog-details";
-import PageHeader from "../../components/Page-header/page-header";
-import Footer from "../../components/Footer/footer";
+import blog3Data from "../data/blog3.json";
 
-const BlogDetailsDark = () => {
+import LightTheme from "../layouts/Light";
+import Navbar from "../components/Navbar/navbar";
+import BlogDetails from "../components/Blog-details/blog-details";
+import PageHeader from "../components/Page-header/page-header";
+import Footer from "../components/Footer/footer";
+
+const BlogDetailsLight = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
@@ -27,22 +28,21 @@ const BlogDetailsDark = () => {
     });
   }, [navbarRef]);
   return (
-    <DarkTheme>
+    <LightTheme>
       <div className="circle-bg">
         <div className="circle-color fixed">
           <div className="gradient-circle"></div>
           <div className="gradient-circle two"></div>
         </div>
       </div>
-      <Navbar nr={navbarRef} lr={logoRef} />
+      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <PageHeader
         title="Blog Details."
-        paragraph="All the most current information and facts about space mining."
       />
-          <BlogDetails blog={"blog"} />
+          <BlogDetails theme="light" blog={"blog"} />
           <Footer />
-    </DarkTheme>
+    </LightTheme>
   );
 };
 
-export default BlogDetailsDark;
+export default BlogDetailsLight;

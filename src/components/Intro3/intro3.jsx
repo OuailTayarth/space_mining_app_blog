@@ -19,7 +19,7 @@ const Intro3 = () => {
   let ZeroString = "00";
 
   useEffect(() => {
-    const target = new Date("02/09/2023 14:01:59");
+    const target = new Date("05/09/2023 14:01:59");
     const interval = setInterval(() => {
       const now = new Date();
       const difference = target.getTime() - now.getTime();
@@ -65,13 +65,13 @@ const Intro3 = () => {
               <div className="sub-title mb-5">
                 <h6>The Future of Space Mining</h6>
               </div>
-              <h1 className="fw-600">Unlocking the Treasures of the Universe.</h1>
+              <h1 className="fw-600 wow fadeIn">Unlocking the Treasures of the Universe.</h1>
               {/* <p>
               Space mining is the extraction of valuable materials from celestial bodies such as asteroids, comets and the moon. These materials can include water, precious metals, and rare earth elements
                 <br /> The mining of these resources can be used for a variety of purposes such as creating fuel for spacecraft, building materials for lunar colonies...
               </p> */}
-              <p className="launching-soon">launching soon</p>
-              <ul>
+              <p className="launching-soon wow fadeIn">launching soon</p>
+              <ul className = "wow fadeIn">
                 <li><h1 className="countdow-time fw-600">{days}</h1>
                   <p className="countdown-label">days</p>
                 </li>

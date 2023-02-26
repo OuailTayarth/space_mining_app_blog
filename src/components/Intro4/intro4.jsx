@@ -11,9 +11,10 @@ const Intro4 = ({ sliderRef, blackStar }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1 className="wow fadeIn">
-              NFT collection <br/> from the Final Frontier <br/> 
+              WELCOME TO <br/> .SPACE MINING. <br/>
               </h1>
-              <div className="mint-btn">
+              <h6 id="collection-text" className="wow fadeIn">A collection of NFTs from the Final Frontier</h6>
+              <div className="mint-btn wow fadeIn">
                 <a class="butn bord menu curve white" href="#">MINT YOUR NFT</a>
               </div>
             </div>

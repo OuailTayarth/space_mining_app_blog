@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="container">
         <div className="row row-reverse">
           <div className="col-lg-5 valign md-mb50">
-            <div className="mb-50" id="mt-23">
+            <div className="mb-50 wow fadeIn" id="mt-23">
               <h6 id="aboutTitle">
                 ABOUT US
               </h6>
