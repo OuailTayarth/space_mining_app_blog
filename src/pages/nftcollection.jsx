@@ -33,7 +33,7 @@ const Homepage5 = () => {
 
   return (
     <LightTheme>
-      <Navbar nr={navbarRef} lr={logoRef} />
+      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <Intro4 />
       <Portfolio grid={3} filterPosition="center" />
       <Footer />

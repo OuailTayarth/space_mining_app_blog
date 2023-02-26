@@ -8256,6 +8256,17 @@ footer .item .copy-right p a {
     background-position: center !important;
   }
 
+  footer .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .container .logo-row {
+    display: none;
+  }
+
   .md-mb10 {
     margin-bottom: 10px;
   }
@@ -8757,7 +8768,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 77px;
+    width: 66px;
   }
 
   .hamenu .menu-links .main-menu > li {

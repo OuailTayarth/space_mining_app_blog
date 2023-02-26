@@ -34,7 +34,7 @@ const BlogDetailsLight = () => {
           <div className="gradient-circle two"></div>
         </div>
       </div>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
+      <Navbar nr={navbarRef} lr={logoRef} theme="themeL"/>
       <PageHeader
         title="NFT-Supported Scholarships."
         paragraph="Scholarships funded by NFT revenues are a new and innovative."
