@@ -11,7 +11,8 @@ const BlogDetails = ({ theme }) => {
   const {id} = router.query;
   // get a blog based on a specific Id
   const blogItem = blog1Data.find((item) => item.id === parseInt(id));
-
+  console.log("Id",id);
+  console.log("Item selected",blogItem);
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -29,18 +30,18 @@ const BlogDetails = ({ theme }) => {
           <div className="col-lg-11">
             <div className="post">
               <div className="img">
-                <img src={blogItem.image} alt="" />
+                <img src="/img/spaceblog/blog1.jpg" alt="" />
               </div>
               <div className="content pt-60">
                 <div className="row justify-content-center">
                   <div className="col-lg-10">
                     <div className="cont">
                       <h4 className="extra-title">
-                      {blogItem.title}
+                      hello
                       </h4>
                       <div className="spacial">
                         <p>
-                        {blogItem.content}
+                        
                         </p>
                       </div>
                       <p>

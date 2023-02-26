@@ -39,7 +39,7 @@ const BlogDetailsLight = () => {
       <PageHeader
         title="Blog Details."
       />
-          <BlogDetails theme="light" blog={"blog"} />
+          <BlogDetails theme="light" />
           <Footer />
     </LightTheme>
   );

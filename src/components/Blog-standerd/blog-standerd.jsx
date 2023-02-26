@@ -17,11 +17,7 @@ const BlogStanderd = ({ blogs }) => {
                   key={blogItem.id}
                 >
                   <div className="img">
-                    <Link href="#">
-                      <a>
                         <img src={blogItem.image} alt="" />
-                      </a>
-                    </Link>
                   </div>
                   <div className="content">
                     <div className="row justify-content-center">
