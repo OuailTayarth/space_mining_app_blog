@@ -14,7 +14,7 @@ const AboutUs = () => {
                 ABOUT US
               </h6>
               <h3 className="fw-600 text-u ls1 mb-10 color-font-black">
-                Space Mining
+                The Space Miner
               </h3>
 
               {/* <h3 className="fw-600 text-u ls1 mb-10 color-font">

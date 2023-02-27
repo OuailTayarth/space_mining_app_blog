@@ -335,7 +335,7 @@ span:hover {
   font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 7px;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 .circle {
@@ -742,7 +742,7 @@ span:hover {
 }
 
 .mb-10 {
-  margin-bottom: 10px !important;
+  margin-bottom: 5px !important;
 }
 
 .mb-15 {

@@ -62,7 +62,7 @@ const Intro3 = () => {
           <div className="col-lg-7 valign">
             <div className="cont">
               <div className="sub-title mb-5">
-                <h6>The Future of Space Mining</h6>
+                <h6>The Space Miner</h6>
               </div>
               <h1 className="fw-600 wow fadeIn">Unlocking the Treasures of the Universe.</h1>
               {/* <p>

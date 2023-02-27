@@ -36,7 +36,7 @@ const BlogLight = () => {
       </div>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <PageHeader
-        title="Space Mining Blog."
+        title="The Space Miner Blog."
         paragraph="All the most current information and facts about space mining."
       />
       <BlogStanderd blogs={blog1Data} />

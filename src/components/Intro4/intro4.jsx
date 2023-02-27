@@ -11,7 +11,7 @@ const Intro4 = ({ sliderRef, blackStar }) => {
           <div className="col-lg-10">
             <div className="cont text-center">
               <h1 className="wow fadeIn">
-              WELCOME TO <br/> .SPACE MINING. <br/>
+              WELCOME TO <br/> .THE SPACE MINER. <br/>
               </h1>
               <h6 id="collection-text" className="wow fadeIn">A collection of NFTs from the Final Frontier</h6>
               <div className="mint-btn wow fadeIn">
