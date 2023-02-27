@@ -10,7 +10,7 @@ const Footer = ({ hideBGCOLOR }) => {
           <div className="logo-row">
             <div></div>
             <div className="logo">
-                  <h5>Logo</h5>
+                  <h5>The Space Miner</h5>
             </div>
           </div>
 
