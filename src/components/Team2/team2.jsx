@@ -21,7 +21,7 @@ const Team2 = () => {
 
       <div className="container-fluid">
         <div className="row centered">
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-6 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
                 <img src="/img/teampic/team5.jpg" alt="" />
@@ -38,7 +38,7 @@ const Team2 = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-6 col-md-6">
             <div className="item cir">
               <div className="img">
                 <img src="/img/teampic/team4.jpg" alt="" />
@@ -55,7 +55,24 @@ const Team2 = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-6 col-md-6">
+            <div className="item cir sm-mb50">
+              <div className="img">
+                <img src="/img/teampic/team3.jpg" alt="" />
+                <div className="info">
+                  <h6>Emily Davis</h6>
+                  <h7>Co-Founder</h7> <br></br>
+                  <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam velit
+                  <br></br> perspiciatis accusamus enim repellendus ea asperiores aut, laudantium hic,<br></br>
+                  vero quis ullam! Veniam quasi atque perspiciatis deserunt modi a accusantium! 
+                  <br></br> Magnam velit perspiciatis accusamus enim repellendus ea asperiores aut, laudantium hic.<br></br>                 
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-6 col-md-6">
             <div className="item cir sm-mb50">
               <div className="img">
                 <img src="/img/teampic/team3.jpg" alt="" />

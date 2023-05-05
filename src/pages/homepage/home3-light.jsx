@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/navbar";
 import Intro3 from "../../components/Intro3/intro3";
 import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
+import DarkTheme from "../../layouts/Dark";
 
 
 const LandingPage = () => {
