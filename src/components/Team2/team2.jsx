@@ -75,7 +75,7 @@ const Team2 = () => {
           <div className="col-lg-6 col-md-6">
             <div className="item cir sm-mb50">
               <div className="img">
-                <img src="/img/teampic/team3.jpg" alt="" />
+                <img src="/img/teampic/team2.jpg" alt="" />
                 <div className="info">
                   <h6>Emily Davis</h6>
                   <h7>Co-Founder</h7> <br></br>

@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
+import parse from "html-react-parser";
 
 const BlogStanderd = ({ blogs }) => {
   return (
@@ -36,13 +37,15 @@ const BlogStanderd = ({ blogs }) => {
                           ))}
                         </div> */}
                         <h4 className="title">
-                            {blogItem.title}
+                            {parse(blogItem.title)}
                         </h4>
-                        <p>{blogItem.content}</p>
-                        {/* <Link href={`/blog-details-page?id=${blogItem.id}`}></Link> */}
-                        <Link href="#">
+                        <p>{parse(blogItem.intro)}</p>
+                        <Link href={`/blog-details-page?id=${blogItem.id}`}>
                           <a className="butn bord curve mt-30">Read More</a>
                         </Link>
+                        {/* <Link href="#">
+                          <a className="butn bord curve mt-30">Read More</a>
+                        </Link> */}
                       </div>
                     </div>
                   </div>
