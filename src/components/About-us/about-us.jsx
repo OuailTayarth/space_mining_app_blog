@@ -20,9 +20,19 @@ const AboutUs = () => {
               {/* <h3 className="fw-600 text-u ls1 mb-10 color-font">
                 NFT Space Mining
               </h3> */}
-              <p id="about-p">Space Mining NFT Collection is a unique and exciting venture in the world of non-fungible tokens (NFTs).
-               Our mission is to offer collectors a chance to own pieces of space-mined minerals and artifacts, verified on the blockchain for authenticity and scarcity. The collection features rare and precious items from the depths of our solar system, including meteorites, moon rocks, and asteroids. With cutting-edge technology and a deep respect for space exploration, we're proud to offer a truly one-of-a-kind NFT experience.
-               Join us on this journey...</p>
+              
+              <p id="about-p" className="fw-500">The Space Miner’s mission is to raise awareness of the field of Space Resource Mining while celebrating black women in the space industry.</p> 
+              <div className="spacePadding"></div>
+              <p id="about-p">The Space Miner’s debut collection, Celestial Fire Bosses, showcases an innovative, neoteric collection of 30 hand-drawn base characters (space miners) and 60 thoughtfully chosen traits, resulting in 2,025 total pieces.</p>
+              <div className="spacePadding"></div>
+              <p id="about-p">Each base character in this collection has been individually designed using real black women as inspiration. This approach differs from most generative collections, which attempt to create racial diversity by adding skin tone traits to one racially-generic base character.</p>
+              <div className="spacePadding"></div>
+              <p id="about-p">Additionally, the layers used in this collection are not superficial stock traits; rather, they are carefully crafted, thematically-relevant traits, which include scientific, historical, and cultural references. </p>
+              <div className="spacePadding"></div>
+              <p id="about-p">The Space Miner’s Celestial Fire Bosses collection is the brainchild of Lisa Haley and Taryn Van Deusen, a mother-daughter team with backgrounds in the field of Space Resource Mining. Lisa, subject matter expert and consultant, is a published author and graduate of the Colorado School of Mines Space Resources program. Taryn is a lawyer working on her PhD in the same program. Marco, the collection’s artist, has brought Lisa and Taryn’s vision to life using his hyper-digital, abstract style. </p>
+              <div className="spacePadding"></div>
+              <p id="about-p">Women of color are grossly underrepresented in the space industry and, more broadly, in STEAM (science, technology, engineering, arts, and math) and Web3. The Space Miner is dedicated to promoting gender and racial diversity in these areas with a focus on supporting black women, specifically. Check out our individual bios to learn more about the team.</p>
+               
               {/* <Link href="/about/about-dark">
                 <a className="butn bord curve mt-30">
                   <span>Read More</span>

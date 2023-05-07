@@ -173,6 +173,10 @@ span:hover {
   color: #fff;
 }
 
+.spacePadding {
+  padding: 5px 0px 5px 0px;
+}
+
 .back-color {
   background: -webkit-gradient(
     linear,
@@ -1965,8 +1969,8 @@ span:hover {
 }
 
 .nav-scroll {
-  background: #fff;
-  border-color: #f5f5f5;
+  background: #000;
+  border-color: #000;
   padding: 0;
   position: fixed;
   top: -80px;
@@ -6395,6 +6399,12 @@ span:hover {
   -webkit-transition: all 0.7s;
   -o-transition: all 0.7s;
   transition: all 0.7s;
+}
+
+
+
+#team-padding {
+  padding-top: 30px;
 }
 
 .team .item.cir .img:before {
