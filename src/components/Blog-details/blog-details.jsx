@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {useRouter} from "next/router";
 import blog1Data from "../../data/blog1.json";
 import parse from "html-react-parser";
@@ -7,14 +7,29 @@ import parse from "html-react-parser";
 
 const BlogDetails = ({ theme }) => {
   const messageRef = React.useRef(null);
+  const [blogData, setBlogData] = useState({});
+  console.log(blogData);
   const router = useRouter();
   // get the id from the URL
   const {id} = router.query;
+
+  useEffect(()=> {
+    loadData();
+  }, [id]);
   
+
+  function loadData() {
+    const blogItem = blog1Data.find((item) => item.id === parseInt(id));
+    if(blogItem) {
+      setBlogData(blogItem);
+      console.log("Id",id);
+      console.log("Item selected",blogItem);
+    }
+    
+  }
+
   // get a blog based on a specific Id
-  const blogItem = blog1Data.find((item) => item.id === parseInt(id));
-  console.log("Id",id);
-  console.log("Item selected",blogItem);
+  
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -30,29 +45,34 @@ const BlogDetails = ({ theme }) => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-11">
+            {Object.keys(blogData).length === 0 ? (
+              <p>Loading...</p>
+            ) : (
             <div className="post">
               <div className="img">
-                <img src={blogItem.image} alt="" />
+                <img src={blogData.image} alt="" />
               </div>
               <div className="content pt-60">
                 <div className="row justify-content-center">
                   <div className="col-lg-10">
                     <div className="cont">
                       <h4 className="extra-title">
-                      {blogItem.title}
+                      {blogData.title}
                       </h4>
                         <p>
-                      {parse(blogItem.content)}
+                      {parse(blogData.content)}
+                      {/* {blogData.content} */}
                         </p>
                       <p>
-                      {parse (blogItem.content2)}
+                      {parse (blogData.content2)}
+                      {/* {blogData.content2} */}
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-
             </div>
+          )}
           </div>
         </div>
       </div>
