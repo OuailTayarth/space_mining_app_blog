@@ -8,7 +8,7 @@ const AboutUs = () => {
     <section className="about-us section-padding valign position-re">
       <div className="container">
         <div className="row row-reverse">
-          <div className="col-lg-5 valign md-mb50">
+          <div className="col-lg-6 valign md-mb50">
             <div className="mb-50 wow fadeIn" id="mt-23">
               <h6 id="aboutTitle">
                 ABOUT US
