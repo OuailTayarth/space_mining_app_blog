@@ -110,7 +110,7 @@ const getData = () => {
 
             <li className="nav-item">
               <Link href={`/nftcollection`}>
-                <a className="nav-link">NFT collection</a>
+                <a className="nav-link">Collection</a>
               </Link>
             </li>
 
@@ -121,8 +121,20 @@ const getData = () => {
             </li>
 
             <li className="nav-item">
+              <Link href={`/spaceMining`}>
+                <a className="nav-link">Space Mining</a>
+              </Link>
+            </li>
+
+            <li className="nav-item">
               <Link href={`/spaceminingInfo`}>
-                <a className="nav-link">Space Resource Mining Info/Facts</a>
+                <a className="nav-link">Publications</a>
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link href={`/`}>
+                <a className="nav-link">Black Women in Space</a>
               </Link>
             </li>
 

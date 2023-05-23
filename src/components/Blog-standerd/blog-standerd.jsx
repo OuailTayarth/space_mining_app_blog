@@ -23,12 +23,25 @@ const BlogStanderd = ({ blogs }) => {
                   <div className="content">
                     <div className="row justify-content-center">
                       <div className="col-10">
-                        {/* <Link href={`/blog/blog-dark`}>
-                          <a className="date">
-                            <span className="num">{blogItem.date.day}</span>
-                            <span>{blogItem.date.month}</span>
+
+                      <a >
+                          <div className="tags">
+                            <a className="num">Author: {blogItem.author}</a>
+                          </div>
+                        </a>
+
+                        <a >
+                          <div className="tags">
+                            <a >{blogItem.date.day} {blogItem.date.month}</a>
+                          </div>
+                        </a>
+
+                        <a >
+                          <a className="tags">
+                            <a href={blogItem.source} className="num" target="_blank">Original Article Source</a>
                           </a>
-                        </Link> */}
+                        </a>
+
                         {/* <div className="tags">
                           {blogItem.tags.map((tag, index) => (
                             <Link key={index} href="/blog/blog-dark">
