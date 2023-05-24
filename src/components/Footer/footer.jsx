@@ -3,15 +3,17 @@ import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 
-const Footer = ({ hideBGCOLOR }) => {
+const Footer = ({ hideBGCOLOR, lr }) => {
   return (
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
       <div className="container">
           <div className="logo-row">
             <div></div>
-            <div className="logo">
-                  <h5>The Space Miner</h5>
-            </div>
+            <Link href="/">
+              <a className="logo">
+                  <img id="footerLogo" ref={lr} src={appData.darkLogo} alt="logo" />
+              </a>
+            </Link>
           </div>
 
           <div>

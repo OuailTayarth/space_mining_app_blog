@@ -21,18 +21,10 @@ const AboutUs = () => {
                 NFT Space Mining
               </h3> */}
               
-              <p id="about-p" className="fw-500">The Space Miner’s mission is to raise awareness of the field of Space Resource Mining while celebrating black women in the space industry.</p> 
-              <div className="spacePadding"></div>
-              <p id="about-p">The Space Miner’s debut collection, Celestial Fire Bosses, showcases an innovative, neoteric collection of 30 hand-drawn base characters (space miners) and 60 thoughtfully chosen traits, resulting in 2,025 total pieces.</p>
-              <div className="spacePadding"></div>
-              <p id="about-p">Each base character in this collection has been individually designed using real black women as inspiration. This approach differs from most generative collections, which attempt to create racial diversity by adding skin tone traits to one racially-generic base character.</p>
-              <div className="spacePadding"></div>
-              <p id="about-p">Additionally, the layers used in this collection are not superficial stock traits; rather, they are carefully crafted, thematically-relevant traits, which include scientific, historical, and cultural references. </p>
-              <div className="spacePadding"></div>
-              <p id="about-p">The Space Miner’s Celestial Fire Bosses collection is the brainchild of Lisa Haley and Taryn Van Deusen, a mother-daughter team with backgrounds in the field of Space Resource Mining. Lisa, subject matter expert and consultant, is a published author and graduate of the Colorado School of Mines Space Resources program. Taryn is a lawyer working on her PhD in the same program. Marco, the collection’s artist, has brought Lisa and Taryn’s vision to life using his hyper-digital, abstract style. </p>
-              <div className="spacePadding"></div>
-              <p id="about-p">Women of color are grossly underrepresented in the space industry and, more broadly, in STEAM (science, technology, engineering, arts, and math) and Web3. The Space Miner is dedicated to promoting gender and racial diversity in these areas with a focus on supporting black women, specifically. Check out our individual bios to learn more about the team.</p>
-               
+              <p id="about-p" className="fw-500">The Space Miner’s mission is to harness the power of Web3, through digital art, to raise awareness of the field of space resource utilization while celebrating black women in the space industry.</p> 
+              <p id="about-p">Our purpose is to showcase how humans can use off-world solutions to solve Earth’s problems, from racial inequity to natural resource depletion.</p>
+              <p id="about-p">Our vision is to inspire Earth’s future galactic pioneers and ambassadors from a planet worth saving.</p>
+              <p id="about-p">Women of color are grossly underrepresented in the space industry and, more broadly, in STEAM (science, technology, engineering, arts, and math) and Web3. The Space Miner is dedicated to promoting gender and racial diversity in these areas.</p>
               {/* <Link href="/about/about-dark">
                 <a className="butn bord curve mt-30">
                   <span>Read More</span>

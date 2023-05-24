@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/navbar";
-import AboutUs from "../components/About-us/about-us";
+import MiningSpace from "../components/space-mining/miningSpace";
 import Footer from "../components/Footer/footer";
 import LightTheme from "../layouts/Light";
 
@@ -26,7 +26,7 @@ const spaceMining = () => {
   return (
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-        <AboutUs />
+        <MiningSpace/>
         <Footer />
     </LightTheme>
   );
