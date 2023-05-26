@@ -344,6 +344,13 @@ span:hover {
   margin-bottom: 6px;
 }
 
+#team-padding-profil {
+    padding-top: 50px;
+  }
+
+
+
+
 .circle {
   border-radius: 50%;
 }
@@ -6358,7 +6365,7 @@ span:hover {
 
 
 .team .item.cir .img .team-image {
-  border-radius: 7px;
+  border-radius: 0px;
 }
 
 #footerLogo {
@@ -6392,7 +6399,7 @@ span:hover {
 }
 
 .team .item.cir .img:hover:before {
-  opacity: 0.5;
+  opacity: 0.8;
   cursor: pointer;
 }
 
@@ -6475,21 +6482,30 @@ span:hover {
   z-index: 2;
 } */
 
-.team .item.cir .info span {
+/* .team .item.cir .info span {
   font-size: 15px;
   color: #fff;
+} */
+
+ 
+ 
+.team .info span {
+  /* Justify the alignment of the font */
+  line-height: 1.2; /* Single line spacing */
+  font-size: 12pt; /* Set font size to 12 pt */
+  margin-bottom: 12pt; /* Set 12 pt spacing after each line */
 }
 
 .team .item.cir .info h6 {
   font-weight: 600;
   letter-spacing: 0.7px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .team .item.cir .info .title {
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.7px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 
@@ -8322,9 +8338,9 @@ footer .item .copy-right p a {
     align-items: center;
   }
 
-  #team-padding-profil {
+  /* #team-padding-profil {
     padding-top: 30px;
-  }
+  } */
 
   .team .item.cir .info {
     position: static;
