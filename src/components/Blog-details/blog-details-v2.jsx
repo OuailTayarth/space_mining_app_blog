@@ -74,18 +74,19 @@ const BlogDetailsV2 = ({ theme }) => {
                   </div>
                 </div>
               </div>
-              <div className="img">
-                <img src={blogData.image3} alt="" />
+            <div> 
+              <div className="img centered">
+                <img src={blogData.image3} alt="" className="JessicaImgTalk" />
               </div>
               <div>
-                <p className="imageText-mrg">{blogData.imageText3}</p>
+                <p className="imageText-padding">{blogData.imageText3}</p>
               </div>
-
-              <div className="img">
+            </div>
+              <div className="img centered">
                 <img src={blogData.image2} alt="" />
               </div>
               <div>
-                <p className="imageText-mrg">{blogData.imageText2}</p>
+                <p className="imageText-padding">{blogData.imageText2}</p>
               </div>
             </div>
           )}

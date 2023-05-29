@@ -1646,6 +1646,23 @@ span:hover {
   line-height: 40px;
 }
 
+.JessicaImgTalk {
+  max-width: 432px;
+}
+
+.JessicaImgWalk {
+  max-width: 605px;
+}
+
+.img.centered {
+  text-align: center;
+}
+
+.imageText-padding {
+  padding: 20px 0px;
+}
+
+
 .sm-title {
   font-size: 14px;
   font-weight: 600;
