@@ -1643,6 +1643,7 @@ span:hover {
 
 .extra-title {
   font-weight: 700;
+  line-height: 40px;
 }
 
 .sm-title {
@@ -6370,6 +6371,14 @@ span:hover {
 
 #footerLogo {
   max-width: 75px;
+}
+
+.imageText-mrg {
+  padding-top: 20px;
+}
+
+#padding-txt {
+  padding-top: 35px;
 }
 
 /* 

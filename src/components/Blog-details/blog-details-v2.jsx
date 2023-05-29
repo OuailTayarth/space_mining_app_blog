@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import React, {useEffect, useState} from "react";
 import {useRouter} from "next/router";
-import blog1Data from "../../data/blog1.json";
+import blog2VData from "../../data/blog2V.json";
 import parse from "html-react-parser";
 
 
-const BlogDetails = ({ theme }) => {
+const BlogDetailsV2 = ({ theme }) => {
   const messageRef = React.useRef(null);
   const [blogData, setBlogData] = useState({});
   console.log(blogData);
@@ -19,7 +19,7 @@ const BlogDetails = ({ theme }) => {
   
 
   function loadData() {
-    const blogItem = blog1Data.find((item) => item.id === parseInt(id));
+    const blogItem = blog2VData.find((item) => item.id === parseInt(id));
     if(blogItem) {
       setBlogData(blogItem);
       console.log("Id",id);
@@ -53,9 +53,9 @@ const BlogDetails = ({ theme }) => {
                 <img src={blogData.image} alt="" />
               </div>
               <div>
-                <p>{blogData.imageText}</p>
+                <p className="imageText-mrg">{blogData.imageText1}</p>
               </div>
-              <div className="content pt-60">
+              <div className="content pt-40">
                 <div className="row justify-content-center">
                   <div className="col-lg-10">
                     <div className="cont">
@@ -74,6 +74,19 @@ const BlogDetails = ({ theme }) => {
                   </div>
                 </div>
               </div>
+              <div className="img">
+                <img src={blogData.image3} alt="" />
+              </div>
+              <div>
+                <p className="imageText-mrg">{blogData.imageText3}</p>
+              </div>
+
+              <div className="img">
+                <img src={blogData.image2} alt="" />
+              </div>
+              <div>
+                <p className="imageText-mrg">{blogData.imageText2}</p>
+              </div>
             </div>
           )}
           </div>
@@ -83,7 +96,7 @@ const BlogDetails = ({ theme }) => {
   );
 };
 
-export default BlogDetails;
+export default BlogDetailsV2;
 
 {/* <div className="spacial">
                         <p>

@@ -127,13 +127,13 @@ const getData = () => {
             </li>
 
             <li className="nav-item">
-              <Link href={`/publications`}>
-                <a className="nav-link">Publications</a>
+              <Link href={`/newspublications`}>
+                <a className="nav-link">News & Publications</a>
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link href={``}>
+              <Link href={`/blackwomeninspace`}>
                 <a className="nav-link">Black Women in Space</a>
               </Link>
             </li>
@@ -229,7 +229,6 @@ const getData = () => {
                       </span>
                   </a>                 
                 </div>
-          
         </div>
         
       </div>
