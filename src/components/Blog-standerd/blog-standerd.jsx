@@ -1,9 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, {useState} from "react";
 import Link from "next/link";
 import parse from "html-react-parser";
 
 const BlogStanderd = ({ blogs }) => {
+  const [toggleText, setToggleText] = useState(false);
   return (
     <section className="blog-pg section-padding pt-0">
       <div className="container">
@@ -26,7 +27,8 @@ const BlogStanderd = ({ blogs }) => {
 
                       <a >
                           <div className="tags">
-                            <a className="num">Author: {blogItem.author}</a>
+                            <a className="num">
+                              {blogItem.id === 4 ? "Authors": "Author"}: {blogItem.author}</a>
                           </div>
                         </a>
 

@@ -40,5 +40,19 @@
     },
     "author": "Shriya Yarlagadda",
     "source": "https://hir.harvard.edu/economics-of-the-stars/"
+  },
+  {
+    "id": 4,
+    "title": "Fleet Raises $33M to Expand its Mineral Exploration Tech",
+    "intro":"Fleet raked in $33M in a Series C round yesterday to build out its satellite-enabled mineral exploration solution. Blackbird led the funding round, which valued the startup at $229M. <br> <br/> <strong>Down Undah</strong>: Headquartered in South Australia, Fleet is hyper-focused on serving one of the region’s largest economies, resource mining. The company leverages its seven-nanosatellite LEO constellation to offers a mineral exploration mapping product, dubbed ExoSphere...",
+    "content": "Fleet raked in $33M in a Series C round yesterday to build out its satellite-enabled mineral exploration solution. Blackbird led the funding round, which valued the startup at $229M. <br> <br/> <strong>Down Undah</strong>: Headquartered in South Australia, Fleet is hyper-focused on serving one of the region’s largest economies, resource mining. The company leverages its seven-nanosatellite LEO constellation to offers a mineral exploration mapping product, dubbed ExoSphere. <br></br> <strong> How it works</strong>:Ground sensors are placed at a mining survey site to capture seismic noise. Then, by harnessing its satellite connectivity, ExoSphere generates high-resolution 3D subsurface maps for its customers. According to the company, ExoSphere can process data from remote surveying sites in days instead of several months, the norm for ground-only observations. <br></br> Since launching the ExoSphere product a year ago, Fleet has pulled in $28M of contracted revenue from over 30 customers worldwide. <br> </br> <strong>Lithium, gold, nickel</strong>: With a global transition to clean energy and battery storage underway, demand for specialty metals has skyrocketed. Fleet aims to support the rapidly transforming ecosystem by expediting mineral mapping surveying and thus increasing supply. ",
+    "content2": "“We are believers that space-enabled data in exploration will allow the search for critical minerals to speed up so much that we will be able to reach humanity’s targets for net zero,” said Fleet cofounder and chief Flavia Tata Nardini. <br> </br> <strong>Next stop, Mars</strong>: Since it wouldn’t be a space startup without having one eye trained to the cosmos, Fleet hopes to eventually use its tech to explore the subsurfaces of other celestial bodies. <br> </br> “Looking ahead, our vision extends beyond Earth as we aim to leverage these cutting-edge techniques to scan the Moon and Mars, enabling responsible exploration and unlocking extraterrestrial resources that were once out of reach,” said Nardini.  ",
+    "image": "/img/spaceblog/Fleet.png",
+    "date": {
+      "day": "",
+      "month": "May 25, 2023"
+    },
+    "author": "Rachael Zisk, Jack Kuhr & Aaron Sorenson",
+    "source": "https://newsletter.payloadspace.com/p/homegrown-52523"
   }
 ]
