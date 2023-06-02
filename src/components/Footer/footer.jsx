@@ -5,7 +5,7 @@ import appData from "../../data/app.json";
 
 const Footer = ({ hideBGCOLOR, lr }) => {
   return (
-    <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
+    <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`} id="footerPadding">
       <div className="container">
           <div className="logo-row">
             <div></div>
@@ -14,6 +14,19 @@ const Footer = ({ hideBGCOLOR, lr }) => {
                   <img id="footerLogo" ref={lr} src={appData.darkLogo} alt="logo" />
               </a>
             </Link>
+          </div>
+
+          <div className="copy-right">
+                    <p className="copy-right-text">
+                      ©2023, The Space Miner, All rights reserved.
+                    </p> 
+                    <Link  href={`/`}>
+                      <a className="footer-link"> Terms and conditions </a>
+                    </Link>
+                    <span className="symbol">|</span>
+                    <Link  href={`/`}>
+                      <a className="footer-link"> Privacy Policy </a>
+                    </Link>
           </div>
 
           <div>
@@ -28,15 +41,9 @@ const Footer = ({ hideBGCOLOR, lr }) => {
                     <a href="#0">
                       <i className="fab fa-instagram"></i>
                     </a>
-                    <a href="#0">
-                      <i className="fab fa-discord"></i>
-                    </a>
+                  
                   </div>
-                  <div className="copy-right">
-                    <p>
-                      ©2023, The Space Miner, All rights reserved.
-                    </p>
-                  </div>
+                  
                 </div>
             </div>
       </div>

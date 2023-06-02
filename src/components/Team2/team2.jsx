@@ -12,7 +12,7 @@ const Team2 = () => {
                 Our Team
               </h6>
               <h3 className="wow color-font-black wow fadeIn">
-                Space exploration specialists &amp; and passionate educators.
+              Fierce Advocates &amp; Passionate Creators.
               </h3>
             </div>
           </div>
@@ -28,8 +28,8 @@ const Team2 = () => {
                 <div className="info">
                   <h6>Lisa Haley</h6>
                   <h7 className= "title" >Space Resource Consultant and Co-Founder</h7> 
-                  <span>Lisa is a published author in the field of space resources and a seasoned educator with 45 years of experience. She has a bachelor’s degree in Community Health and a master’s degree in Multicultural Education with an emphasis on diverse learning styles. <br></br> She is also certified through the Colorado School of Mines’ Mechanical Engineering Department’s Space Resources graduate program. <br></br>
-                  Lisa serves as Space Resource Consultant of The Space Miner, advising on planetary geology, space resource utilization, space operations/systems, and aerospace industry advocacy. <br></br>
+                  <div className="spaceTitle"></div> <span>Lisa is a published author in the field of space resources and a seasoned educator with 45 years of experience. She has a bachelor’s degree in Community Health and a master’s degree in Multicultural Education with an emphasis on diverse learning styles. <br></br><div className="space"></div>  She is also certified through the Colorado School of Mines’ Mechanical Engineering Department’s Space Resources graduate program. <br></br> <div className="space"></div> 
+                  Lisa serves as Space Resource Consultant of The Space Miner, advising on planetary geology, space resource utilization, space operations/systems, and aerospace industry advocacy. <br></br> <div className="space"></div> 
                   Her passions are science and space education, especially advocating for girls and women in the STEM fields.
                   </span>
                 </div>
@@ -44,8 +44,8 @@ const Team2 = () => {
                 <div className="info">
                   <h6>Taryn Haley Van Deusen</h6>
                   <h7 className= "title" >Creative Director and Co-Founder</h7> <br></br>
-                  <span>Taryn is a practicing government contracts attorney working on her PhD in Space Resources with a focus on space law and policy from the Colorado School of Mines. <br></br>
-                  Taryn is the visionary behind The Space Miner and its Celestial Fire Bosses Collection. The collection is a tribute to, inspired by, and dedicated to her daughter. <br></br> Taryn’s goal, through the collection, is to support and promote black women in the space and Web3 industries while shining a light on the burgeoning field of space resource utilization. <br></br>
+                  <div className="spaceTitle"></div><span>Taryn is a practicing government contracts attorney working on her PhD in Space Resources with a focus on space law and policy from the Colorado School of Mines. <br></br> <div className="space"></div>
+                  Taryn is the visionary behind The Space Miner and its Celestial Fire Bosses Collection. The collection is a tribute to, inspired by, and dedicated to her daughter. <br></br> <div className="space"></div> Taryn’s goal, through the collection, is to support and promote black women in the space and Web3 industries while shining a light on the burgeoning field of space resource utilization. <br></br>
                   </span>
                 </div>
               </div>
@@ -59,8 +59,8 @@ const Team2 = () => {
                 <div className="info">
                   <h6>Marco Antonio Soria</h6>
                   <h7 className= "title" >NFT artist</h7> <br></br>
-                  <span> Marco is a digital artist and illustrator based out of Mexico City. His artwork’s post-modern pop realism flavor is derived from his use of bold, hyper-digital colors, idiosyncratic shading, and abstract concepts. <br></br> His unique images have been featured on websites like Art Connect and in magazines like Wow Art Catalogue. <br></br>
-                  Marco is the artist behind The Space Miner’s Celestial Fire Bosses collection and its marketing content. <br></br> He thoughtfully brought Taryn and Lisa’s concept to life through his creativity, expertise, and belief in the vision of the company.
+                  <div className="spaceTitle"></div> <span> Marco is a digital artist and illustrator based out of Mexico City. His artwork’s post-modern pop realism flavor is derived from his use of bold, hyper-digital colors, idiosyncratic shading, and abstract concepts. <br></br> <div className="space"></div> His unique images have been featured on websites like Art Connect and in magazines like Wow Art Catalogue. <br></br> <div className="space"></div>
+                  Marco is the artist behind The Space Miner’s Celestial Fire Bosses collection and its marketing content. <br></br> <div className="space"></div> He thoughtfully brought Taryn and Lisa’s concept to life through his creativity, expertise, and belief in the vision of the company.
                   </span>
                 </div>
               </div>
@@ -70,9 +70,9 @@ const Team2 = () => {
           <div className="col-lg-4 col-md-6" id="team-padding-profil">
             <div className="item cir">
               <div className="img">
-                <img className="team-image" src="/img/teampic/team4.jpg" alt="Marco Antonio Soria" />
+                <img className="team-image" src="/img/teampic/team4.jpg" alt="The Muse" />
                 <div className="info">
-                  <h6>Rayne Haley Van Deusen</h6>
+                  <h6>The Muse</h6>
                   <span>
                   </span>
                 </div>

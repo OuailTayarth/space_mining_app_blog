@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar/navbar";
 import AboutUs from "../components/About-us/about-us";
 import Footer from "../components/Footer/footer";
 import LightTheme from "../layouts/Light";
+import AboutIntro from "../components/About-intro";
 
 const Homepage1 = () => {
   const navbarRef = React.useRef(null);
@@ -27,6 +28,7 @@ const Homepage1 = () => {
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
         <AboutUs />
+        <AboutIntro/>
         <Footer />
     </LightTheme>
   );

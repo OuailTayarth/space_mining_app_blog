@@ -6,7 +6,7 @@ const PageHeader = ({title, paragraph, className}) => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-7 col-md-9">
-              <div className="cont text-center">
+              <div className="cont text-center pt-bot">
                 <h1 className="mb-10 color-font-black">{title}</h1>
                 <p>{paragraph}</p>
               </div>
