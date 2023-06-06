@@ -17,7 +17,7 @@ const AboutIntro = () => {
         <React.Fragment key={item.id}>
           <div className="row aboutIntroPadding">
             <div className="col-lg-12">
-              <div className="htit sm-mb30">
+              <div className="sub-title mb-5">
                 <h4 className="titleIntro">{item.title}</h4>
               </div>
             </div>
