@@ -1,20 +1,26 @@
 [
     {
         "id": 1,
-        "title": "Our Mission?",
-        "paragraph1": "lorem in id tristique in elementum leo nisi eleifend placerat magna lacus elementum ornare vehicula odio posuere quisque ultrices tempus cras id blandit maecenas in ornare quis dolor tempus risus vitae feugiat fames aliquet sed.",
-        "paragraph2": "lorem in id tristique in elementum leo nisi eleifend placerat magna lacus elementum ornare vehicula odio posuere quisque ultrices tempus cras id blandit maecenas in ornare quis dolor tempus risus vitae feugiat fames aliquet sed."
+        "title": "Our Mission",
+        "paragraph1": "The Space Miner’s mission is to harness the power of Web3, through digital art, to raise awareness of the field of space resource utilization while celebrating black women in the space industry.",
+        "paragraph2": ""
     },
     {
         "id": 2,
-        "title": "Our Vision?",
-        "paragraph1": "lorem in id tristique in elementum leo nisi eleifend placerat magna lacus elementum ornare vehicula odio posuere quisque ultrices tempus cras id blandit maecenas in ornare quis dolor tempus risus vitae feugiat fames aliquet sed.",
-        "paragraph2": "lorem in id tristique in elementum leo nisi eleifend placerat magna lacus elementum ornare vehicula odio posuere quisque ultrices tempus cras id blandit maecenas in ornare quis dolor tempus risus vitae feugiat fames aliquet sed."
+        "title": "Our Purpose ",
+        "paragraph1": "Our purpose is to showcase how humans can use off-world solutions to solve Earth’s problems, from racial inequity to natural resource depletion.",
+        "paragraph2": ""
     },
     {
         "id": 3,
-        "title": "Our Core Values ?",
-        "paragraph1": "lorem in id tristique in elementum leo nisi eleifend placerat magna lacus elementum ornare vehicula odio posuere quisque ultrices tempus cras id blandit maecenas in ornare quis dolor tempus risus vitae feugiat fames aliquet sed.",
-        "paragraph2": "lorem in id tristique in elementum leo nisi eleifend placerat magna lacus elementum ornare vehicula odio posuere quisque ultrices tempus cras id blandit maecenas in ornare quis dolor tempus risus vitae feugiat fames aliquet sed."
+        "title": "Our Vision",
+        "paragraph1": "Our vision is to inspire Earth’s future galactic pioneers and ambassadors from a planet worth saving.",
+        "paragraph2": ""
+    }, 
+    {
+        "id": 4,
+        "title": "Our Core Values",
+        "paragraph1": "Women of color are grossly underrepresented in the space industry and, more broadly, in STEAM (science, technology, engineering, arts, and math) and Web3. The Space Miner is dedicated to promoting gender and racial diversity in these areas.",
+        "paragraph2": ""
     }
 ]

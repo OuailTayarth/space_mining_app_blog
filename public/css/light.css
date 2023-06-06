@@ -335,13 +335,17 @@ span:hover {
   border-radius: 5px;
 }
 
+#titleSize {
+  font-size: 70px;
+}
+
 
 #aboutTitle {
   font-weight: 300;
   font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 7px;
-  margin-bottom: 6px;
+  margin-bottom: 15px;
 }
 
 #team-padding-profil {
@@ -6391,7 +6395,7 @@ span:hover {
 }
 
 .aboutIntroPadding {
-  padding: 20px 0px;
+  padding: 16px 0px;
 }
 
 #footerPadding{

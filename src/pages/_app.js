@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Space Mining</title>
+        <title>The Space Miner | Next gen space NFTs</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Provider store={store}>

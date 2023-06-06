@@ -64,7 +64,7 @@ const Intro3 = () => {
               <div className="sub-title mb-5">
                 <h6>The Space Miner</h6>
               </div>
-              <h1 className="fw-600 wow fadeIn">Unlocking the Treasures of the Universe.</h1>
+              <h1 className="fw-600 wow fadeIn" id="titleSize">Next gen space NFTs.</h1>
               {/* <p>
               Space mining is the extraction of valuable materials from celestial bodies such as asteroids, comets and the moon. These materials can include water, precious metals, and rare earth elements
                 <br /> The mining of these resources can be used for a variety of purposes such as creating fuel for spacecraft, building materials for lunar colonies...
