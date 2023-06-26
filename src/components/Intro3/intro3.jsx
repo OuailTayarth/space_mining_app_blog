@@ -19,7 +19,7 @@ const Intro3 = () => {
   let ZeroString = "00";
 
   useEffect(() => {
-    const target = new Date("07/09/2023 14:01:59");
+    const target = new Date("12/21/2023 20:27:00");
     const interval = setInterval(() => {
       const now = new Date();
       const difference = target.getTime() - now.getTime();

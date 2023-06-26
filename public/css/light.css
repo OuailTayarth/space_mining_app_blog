@@ -1621,30 +1621,6 @@ span:hover {
 
 .sub-title h4 {
   font-weight: 400;
-  font-size: 17px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  display: inline-block;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#12c2e9),
-    color-stop(#c471ed),
-    to(#f64f59)
-  );
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
-  padding: 7px 12px;
-  border-radius: 10px;
-  margin-bottom: 5px;
-}
-
-
-
-.sub-title h6 {
-  font-weight: 300;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -1659,7 +1635,31 @@ span:hover {
   );
   background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59, #febf01, #2ac4ea, #20bf55);
+  padding: 7px 12px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+.sub-title h6 {
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#12c2e9),
+    color-stop(#c471ed),
+    to(#f64f59)
+  );
+  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59, #febf01, #2ac4ea, #20bf55);
   padding: 7px 12px;
   border-radius: 10px;
 }
@@ -2025,7 +2025,7 @@ span:hover {
 }
 
 .navbar .logo {
-  width: 71px;
+  width: 50px;
 }
 
 .nav-scroll {
@@ -6439,7 +6439,7 @@ span:hover {
 }
 
 #footerLogo {
-  max-width: 75px;
+  max-width: 50px;
 }
 
 .imageText-mrg {
