@@ -66,6 +66,9 @@ const BlogDetails = ({ theme }) => {
                       {parse(blogData.content)}
                       {/* {blogData.content} */}
                         </p>
+                        <div className="img centered">
+                            <img src={blogData.image2} alt="" />
+                        </div>
                       <p>
                       {parse (blogData.content2)}
                       {/* {blogData.content2} */}
