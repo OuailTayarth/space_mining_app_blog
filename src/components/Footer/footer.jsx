@@ -11,7 +11,7 @@ const Footer = ({ hideBGCOLOR, lr }) => {
             <div></div>
             <Link href="/">
               <a className="logo">
-                  <img id="footerLogo" ref={lr} src={appData.darkLogo} alt="logo" />
+                  {/* <img id="footerLogo" ref={lr} src={appData.darkLogo} alt="logo" /> */}
               </a>
             </Link>
           </div>
@@ -43,7 +43,6 @@ const Footer = ({ hideBGCOLOR, lr }) => {
                     </a>
                   
                   </div>
-                  
                 </div>
             </div>
       </div>

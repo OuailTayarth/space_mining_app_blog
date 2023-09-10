@@ -148,6 +148,10 @@ span:hover {
   max-width: 1200px;
 }
 
+.container-navbar {
+  max-width: 1200px;
+}
+
 .custom-font {
   font-family: "Poppins", sans-serif;
 }
@@ -1877,7 +1881,7 @@ span:hover {
   background: transparent;
   border-bottom: 2px solid transparent;
   z-index: 999;
-  min-height: 80px;
+  min-height: 108px;
 }
 
 .navbar .icon-bar {
@@ -1886,7 +1890,10 @@ span:hover {
 }
 
 .navbar.light .navbar-nav .nav-link {
-  color: #fff;
+  background: linear-gradient(90deg, rgb(21,192,233) 0%, rgb(187,117,237) 35%, rgb(243,81,97) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
   transition: all 0.4s;
 }
 
@@ -2025,7 +2032,7 @@ span:hover {
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 89px;
 }
 
 .nav-scroll {
@@ -8597,10 +8604,10 @@ footer .item .copy-right p a {
     margin: 10px auto !important;
   }
 
-  .navbar .logo {
+  /* .navbar .logo {
     margin-left: 15px;
     width: 50px;
-  }
+  } */
 
   .nav-scroll .icon-bar,
   .light .icon-bar {
@@ -8988,9 +8995,9 @@ footer .item .copy-right p a {
     bottom: 15px;
   }
 
-  .navbar .logo {
-    width: 66px;
-  }
+  /* .navbar .logo {
+    width: 91px;
+  } */
 
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;
