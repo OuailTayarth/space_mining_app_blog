@@ -5,7 +5,6 @@ import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
 import DarkTheme from "../../layouts/Dark";
 
-
 const LandingPage = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -29,7 +28,7 @@ const LandingPage = () => {
   return (
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <Intro3/>
+      <Intro3 />
       <Footer hideBGCOLOR />
     </LightTheme>
   );

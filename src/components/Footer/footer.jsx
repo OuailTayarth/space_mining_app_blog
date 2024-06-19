@@ -7,44 +7,43 @@ const Footer = ({ hideBGCOLOR, lr }) => {
   return (
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`} id="footerPadding">
       <div className="container">
-          <div className="logo-row">
-            <div></div>
-            <Link href="/">
-              <a className="logo">
-                  {/* <img id="footerLogo" ref={lr} src={appData.darkLogo} alt="logo" /> */}
+        <div className="logo-row">
+          <div></div>
+          <Link href="/">
+            <a className="logo">
+              {/* <img id="footerLogo" ref={lr} src={appData.darkLogo} alt="logo" /> */}
+            </a>
+          </Link>
+        </div>
+
+        <div className="copy-right">
+          <p className="copy-right-text">
+            ©2024, Astrolith, All rights reserved.
+          </p>
+          <Link href={`/`}>
+            <a className="footer-link"> Terms and conditions </a>
+          </Link>
+          <span className="symbol">|</span>
+          <Link href={`/`}>
+            <a className="footer-link"> Privacy Policy </a>
+          </Link>
+        </div>
+
+        <div>
+          <div className="item">
+            <div className="social">
+              <a href="#0">
+                <i className="fab fa-facebook-f"></i>
               </a>
-            </Link>
-          </div>
-
-          <div className="copy-right">
-                    <p className="copy-right-text">
-                      ©2023, The Space Miner, All rights reserved.
-                    </p> 
-                    <Link  href={`/`}>
-                      <a className="footer-link"> Terms and conditions </a>
-                    </Link>
-                    <span className="symbol">|</span>
-                    <Link  href={`/`}>
-                      <a className="footer-link"> Privacy Policy </a>
-                    </Link>
-          </div>
-
-          <div>
-                <div className="item">
-                  <div className="social">
-                    <a href="#0">
-                      <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#0">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#0">
-                      <i className="fab fa-instagram"></i>
-                    </a>
-                  
-                  </div>
-                </div>
+              <a href="#0">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="#0">
+                <i className="fab fa-instagram"></i>
+              </a>
             </div>
+          </div>
+        </div>
       </div>
     </footer>
   );

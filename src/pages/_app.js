@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Script from "next/script";
 import Cursor from "../components/cursor";
-import { Provider } from 'react-redux';
+import { Provider } from "react-redux";
 import store from "../redux/store";
 import "../styles/main.scss";
 
@@ -10,7 +10,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>The Space Miner | Next gen space NFTs</title>
+        <title>
+          Astrolith | An NFT Collection Showcasing the Future of Space Resources
+          and Celebrating Diversity.
+        </title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Provider store={store}>
