@@ -1,5 +1,5 @@
 import React from "react";
-import LandingPage from "./homepage/home3-light";
+import LandingPage from "./homepage/landingPage";
 
 const Home = () => {
   return (

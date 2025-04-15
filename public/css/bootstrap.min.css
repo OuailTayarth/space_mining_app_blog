@@ -264,12 +264,9 @@ button {
 
 #about-img {
   border-radius: 7px;
-  margin-top: 30px;
+  margin-top: 29px;
 }
 
-/* .row.row-reverse {
-  flex-direction: row-reverse;
-} */
 
 button:focus {
   outline: 1px dotted;

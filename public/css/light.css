@@ -1899,6 +1899,7 @@ span:hover {
   color: transparent;
   -webkit-text-fill-color: transparent;
   transition: all 0.4s;
+  margin: 0px;
 }
 
 .navbar.light .navbar-nav .nav-link:hover {
@@ -1906,8 +1907,8 @@ span:hover {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
   color: #000;
   padding: 15px 7px;
   margin: 10px 5px;
@@ -7665,7 +7666,6 @@ span:hover {
 .blog-pg.single .post .content p {
   font-size: 16px;
   font-family: inherit;
-  margin: 30px 0;
 }
 
 .blog-pg.single .post .content ul li {
@@ -9582,9 +9582,9 @@ section.next-prog.section-padding {
 
 /*=====================================================**/
 .connect-btn {
-  padding-left: 15px;
   display: flex;
   justify-content: flex-end;
+  margin-left: 5px;
 }
 
 .connect-btn:hover {

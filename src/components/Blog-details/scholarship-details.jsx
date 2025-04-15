@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-
-const BlogDetails = ({ theme }) => {
+const ScholarshipDetails = ({ theme }) => {
   const messageRef = React.useRef(null);
   function validateEmail(value) {
     let error;
@@ -28,24 +27,35 @@ const BlogDetails = ({ theme }) => {
                   <div className="col-lg-10">
                     <div className="cont">
                       <h4 className="extra-title">
-                      Scholarships funded by NFT revenues are a new and innovative.
+                        Scholarships funded by NFT revenues are a new and
+                        innovative.
                       </h4>
                       <div className="spacial">
                         <p>
-                        Scholarships funded by NFT revenues are a new and innovative way to finance education and support aspiring students.
-                         The concept involves the creation and sale of unique digital assets, known as NFTs,
-                         which can range from digital artwork to collectible items.
+                          Scholarships funded by NFT revenues are a new and
+                          innovative way to finance education and support
+                          aspiring students. The concept involves the creation
+                          and sale of unique digital assets, known as NFTs,
+                          which can range from digital artwork to collectible
+                          items.
                         </p>
                       </div>
                       <p>
-                      The revenue generated from the sale of these NFTs is then directed towards a scholarship program, providing students with financial assistance to further their education. This approach not only benefits the students, but also helps to promote the growth and development of the NFT market, creating a mutually beneficial relationship. With the increasing popularity of NFTs, it is likely that more and more scholarship programs will be funded in this manner in the future,
-                       making education accessible to a wider range of individuals.
+                        The revenue generated from the sale of these NFTs is
+                        then directed towards a scholarship program, providing
+                        students with financial assistance to further their
+                        education. This approach not only benefits the students,
+                        but also helps to promote the growth and development of
+                        the NFT market, creating a mutually beneficial
+                        relationship. With the increasing popularity of NFTs, it
+                        is likely that more and more scholarship programs will
+                        be funded in this manner in the future, making education
+                        accessible to a wider range of individuals.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -54,4 +64,4 @@ const BlogDetails = ({ theme }) => {
   );
 };
 
-export default BlogDetails;
+export default ScholarshipDetails;

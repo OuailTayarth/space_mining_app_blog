@@ -2,34 +2,16 @@ import React from "react";
 import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer";
 import LightTheme from "../layouts/Light";
-import AboutIntro from "../components/About-intro";
+import AboutIntro from "../components/About-intro/aboutIntro";
 
-const Homepage1 = () => {
-  const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
-
-  React.useEffect(() => {
-    var navbar = navbarRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-    });
-  }, [navbarRef]);
+const About = () => {
   return (
     <LightTheme>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-        <AboutIntro/>
-        <Footer />
+      <Navbar theme="themeL" />
+      <AboutIntro />
+      <Footer />
     </LightTheme>
   );
 };
 
-export default Homepage1;
+export default About;

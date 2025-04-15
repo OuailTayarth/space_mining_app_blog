@@ -2,31 +2,11 @@ import React from "react";
 import blog1Data from "../data/blog1.json";
 import LightTheme from "../layouts/Light";
 import Navbar from "../components/Navbar/navbar";
-import BlogStanderd from "../components/Blog-standerd/blog-standerd";
+import BlogStandard from "../components/Blog-standard/blog-standard";
 import PageHeader from "../components/Page-header/page-header";
 import Footer from "../components/Footer/footer";
 
-
 const BlogLight = () => {
-    const navbarRef = React.useRef(null);
-    const logoRef = React.useRef(null);
-
-    React.useEffect(() => {
-      var navbar = navbarRef.current,
-        logo = logoRef.current;
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-      window.addEventListener("scroll", () => {
-        if (window.pageYOffset > 300) {
-          navbar.classList.add("nav-scroll");
-        } else {
-          navbar.classList.remove("nav-scroll");
-        }
-      });
-    }, [navbarRef]);
   return (
     <LightTheme>
       <div className="circle-bg">
@@ -35,12 +15,12 @@ const BlogLight = () => {
           <div className="gradient-circle two"></div>
         </div>
       </div>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
+      <Navbar theme="themeL" />
       <PageHeader
         title="Space Mining News and Publications."
         paragraph="Current events and information about space resource utilization."
       />
-      <BlogStanderd blogs={blog1Data} />
+      <BlogStandard blogs={blog1Data} />
       <Footer />
     </LightTheme>
   );

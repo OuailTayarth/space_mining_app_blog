@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 
-const Footer = ({ hideBGCOLOR, lr }) => {
+const Footer = ({ hideBGCOLOR }) => {
   return (
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`} id="footerPadding">
       <div className="container">
@@ -11,7 +11,7 @@ const Footer = ({ hideBGCOLOR, lr }) => {
           <div></div>
           <Link href="/">
             <a className="logo">
-              {/* <img id="footerLogo" ref={lr} src={appData.darkLogo} alt="logo" /> */}
+              <img id="footerLogo" src={appData.darkLogo} alt="logo" />
             </a>
           </Link>
         </div>
