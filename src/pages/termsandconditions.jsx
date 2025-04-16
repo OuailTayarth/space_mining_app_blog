@@ -1,5 +1,4 @@
 import React from "react";
-import blog3Data from "../data/blog3.json";
 import LightTheme from "../layouts/Light";
 import Navbar from "../components/Navbar/navbar";
 import BlogDetailsV4 from "../components/Blog-details/termsconditions-details";
