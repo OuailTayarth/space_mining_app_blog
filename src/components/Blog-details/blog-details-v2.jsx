@@ -1,9 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import React, {useEffect, useState} from "react";
-import {useRouter} from "next/router";
+import React, { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 import blog2VData from "../../data/blog2V.json";
 import parse from "html-react-parser";
-
 
 const BlogDetailsV2 = ({ theme }) => {
   const messageRef = React.useRef(null);
@@ -11,25 +10,23 @@ const BlogDetailsV2 = ({ theme }) => {
   console.log(blogData);
   const router = useRouter();
   // get the id from the URL
-  const {id} = router.query;
+  const { id } = router.query;
 
-  useEffect(()=> {
+  useEffect(() => {
     loadData();
   }, [id]);
-  
 
   function loadData() {
     const blogItem = blog2VData.find((item) => item.id === parseInt(id));
-    if(blogItem) {
+    if (blogItem) {
       setBlogData(blogItem);
-      console.log("Id",id);
-      console.log("Item selected",blogItem);
+      console.log("Id", id);
+      console.log("Item selected", blogItem);
     }
-    
   }
 
   // get a blog based on a specific Id
-  
+
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -48,48 +45,50 @@ const BlogDetailsV2 = ({ theme }) => {
             {Object.keys(blogData).length === 0 ? (
               <p>Loading...</p>
             ) : (
-            <div className="post">
-              <div className="img">
-                <img src={blogData.image} alt="" />
-              </div>
-              <div>
-                <p className="imageText-mrg">{blogData.imageText1}</p>
-              </div>
-              <div className="content pt-40">
-                <div className="row justify-content-center">
-                  <div className="col-lg-10">
-                    <div className="cont">
-                      <h4 className="extra-title">
-                      {blogData.title}
-                      </h4>
+              <div className="post">
+                <div className="img">
+                  <img src={blogData.image} alt="" />
+                </div>
+                <div>
+                  <p className="imageText-mrg">{blogData.imageText1}</p>
+                </div>
+                <div className="content pt-40">
+                  <div className="row justify-content-center">
+                    <div className="col-lg-10">
+                      <div className="cont">
+                        <h4 className="extra-title">{blogData.title}</h4>
                         <p>
-                      {parse(blogData.content)}
-                      {/* {blogData.content} */}
+                          {parse(blogData.content)}
+                          {/* {blogData.content} */}
                         </p>
-                      <p>
-                      {parse (blogData.content2)}
-                      {/* {blogData.content2} */}
-                      </p>
+                        <p>
+                          {parse(blogData.content2)}
+                          {/* {blogData.content2} */}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
+                <div>
+                  <div className="img centered">
+                    <img
+                      src={blogData.image3}
+                      alt=""
+                      className="JessicaImgTalk"
+                    />
+                  </div>
+                  <div>
+                    <p className="imageText-padding">{blogData.imageText3}</p>
+                  </div>
+                </div>
+                <div className="img centered">
+                  <img src={blogData.image2} alt="" />
+                </div>
+                <div>
+                  <p className="imageText-padding">{blogData.imageText2}</p>
+                </div>
               </div>
-            <div> 
-              <div className="img centered">
-                <img src={blogData.image3} alt="" className="JessicaImgTalk" />
-              </div>
-              <div>
-                <p className="imageText-padding">{blogData.imageText3}</p>
-              </div>
-            </div>
-              <div className="img centered">
-                <img src={blogData.image2} alt="" />
-              </div>
-              <div>
-                <p className="imageText-padding">{blogData.imageText2}</p>
-              </div>
-            </div>
-          )}
+            )}
           </div>
         </div>
       </div>
@@ -98,9 +97,3 @@ const BlogDetailsV2 = ({ theme }) => {
 };
 
 export default BlogDetailsV2;
-
-{/* <div className="spacial">
-                        <p>
-                      {blogItem.content}
-                        </p>
-                      </div> */}

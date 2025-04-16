@@ -1,13 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Vie
-    Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: UI-ThemeZ
-    Author URI: http://themeforest.net/user/UI-ThemeZ
-    Version: 1.2
-
------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------------
 
 == Table Of Content
@@ -252,7 +242,6 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
   border: 1px solid transparent;
   color: #fff;
-  
 }
 
 .buton.butn-gr svg {
@@ -485,7 +474,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .accordion.shadwo .item .accordion-info {
   margin-top: 20px;
   display: none;
-  transition: height .5s ease;
+  transition: height 0.5s ease;
   overflow: hidden;
 }
 

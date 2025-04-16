@@ -3,31 +3,11 @@ import blog3Data from "../data/blog3.json";
 
 import LightTheme from "../layouts/Light";
 import Navbar from "../components/Navbar/navbar";
-import BlogDetails from "../components/Blog-details/blog-details";
 import PageHeader from "../components/Page-header/page-header";
 import Footer from "../components/Footer/footer";
 import BlogDetailsV2 from "../components/Blog-details/blog-details-v2";
 
 const BlogDetailsLight = () => {
-  const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
-
-  React.useEffect(() => {
-    var navbar = navbarRef.current,
-      logo = logoRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-    });
-  }, [navbarRef]);
   return (
     <LightTheme>
       <div className="circle-bg">
@@ -36,12 +16,10 @@ const BlogDetailsLight = () => {
           <div className="gradient-circle two"></div>
         </div>
       </div>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <PageHeader
-        title="Blog Details."
-      />
-          <BlogDetailsV2 theme="light" />
-          <Footer />
+      <Navbar theme="themeL" />
+      <PageHeader title="Blog Details." />
+      <BlogDetailsV2 theme="light" />
+      <Footer />
     </LightTheme>
   );
 };
