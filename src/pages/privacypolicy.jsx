@@ -28,18 +28,10 @@ const BlogDetailsLight = () => {
   }, [navbarRef]);
   return (
     <LightTheme>
-      <div className="circle-bg">
-        <div className="circle-color fixed">
-          <div className="gradient-circle"></div>
-          <div className="gradient-circle two"></div>
-        </div>
-      </div>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL"/>
-      <PageHeader
-        title="Terms & Conditions."
-      />
-          <BlogDetailsV4 theme="dark" blog={"blog"} />
-          <Footer />
+      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
+      <PageHeader title="Terms & Conditions." />
+      <BlogDetailsV4 theme="dark" blog={"blog"} />
+      <Footer />
     </LightTheme>
   );
 };

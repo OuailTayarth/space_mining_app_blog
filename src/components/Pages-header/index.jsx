@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
+import React from "react";
 
 const PagesHeader = () => {
   return (
@@ -19,12 +19,6 @@ const PagesHeader = () => {
               <img src="/img/slid/about.jpg" alt="" />
             </div>
           </div>
-        </div>
-      </div>
-      <div className="half sub-bg">
-        <div className="circle-color">
-          <div className="gradient-circle"></div>
-          <div className="gradient-circle two"></div>
         </div>
       </div>
     </header>
