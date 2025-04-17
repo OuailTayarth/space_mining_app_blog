@@ -13,5 +13,5 @@ I built this project during my last role as a front-end developer at Rose Law Gr
 - **Back-end**: Blockchain
 
 
-
-
+## License
+This project is licensed under a Proprietary License. For usage permissions, please contact the author.
