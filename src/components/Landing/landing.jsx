@@ -55,8 +55,8 @@ const Landing = () => {
                 <h6>Astrolith</h6>
               </div>
               <h1 className="fw-600 wow fadeIn" id="titleSize">
-                An NFT Collection Showcasing the Future of Space Resources and
-                Celebrating Diversity.
+                A Digital Art Collection Showcasing the Future of Space
+                Resources and Celebrating Diversity.
               </h1>
               <p className="launching-soon wow fadeIn">launching soon</p>
               <ul className="wow fadeIn">
