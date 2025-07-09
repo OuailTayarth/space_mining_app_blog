@@ -105,7 +105,7 @@ h6 {
 }
 
 p {
-  color: #888;
+  color: #fff;
   font-size: 16px;
   font-weight: 300;
   line-height: 2;
@@ -1702,6 +1702,7 @@ span:hover {
   -webkit-text-fill-color: transparent;
   transition: all 0.4s;
   margin: 0px;
+  cursor: pointer;
 }
 
 .navbar.light .navbar-nav .nav-link:hover {
@@ -2226,7 +2227,6 @@ span:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
   text-align: center;
 }
 
@@ -3277,18 +3277,20 @@ footer .item .copy-right p a {
 
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
-.navbar .navbar-collapse.show-with-trans {
-  opacity: 1;
-  padding: 10px 15px;
-  height: auto;
-}
+
 @media screen and (max-width: 991px) {
   .bg-img {
     background-position: center !important;
   }
 
+  .container .row .col-lg-5 {
+    margin-bottom: 70px;
+  }
+
   .navbar .navbar-collapse.show-with-trans {
-    padding: 0px;
+    opacity: 1;
+    padding: 10px 15px;
+    height: auto;
   }
 
   footer .container {
@@ -3418,7 +3420,7 @@ footer .item .copy-right p a {
     min-height: 60px;
   }
 
-  .navbar .navbar-collapse {
+  .navbar i .navbar .navbar-collapse {
     max-height: 340px;
     overflow: auto;
     background: #11141b;
@@ -3877,9 +3879,7 @@ section.next-prog.section-padding {
 
 /*=====================================================**/
 .connect-btn {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 5px;
+  margin-left: 41px;
 }
 
 .connect-btn:hover {

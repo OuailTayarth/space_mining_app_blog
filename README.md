@@ -1,8 +1,8 @@
 # Astrolith: Empowering Women In Space Through Digital Art
 
-Astrolith is a full-stack application built with React on the front end and blockchain on the back end for storing data. It uses digital art to raise awareness about space resource utilization while celebrating black women in the space industry. The app and its blog work together to show how off-world solutions can solve Earth’s problems, like racial inequity and natural resource depletion. The blog shares news, publications, and stories, especially about women in space, to inspire future galactic pioneers and ambassadors.
+Astrolith is a web application built with React/Typescript. It uses digital art to raise awareness about space resource utilization while celebrating black women in the space industry. The app and its blog work together to show how off-world solutions can solve Earth’s problems, like racial inequity and natural resource depletion. The blog shares news, publications, and stories, especially about women in space, to inspire future galactic pioneers and ambassadors.
 
-<a href="https://ibb.co/6JV1HfVt"><img src="https://i.ibb.co/3YGMpLGF/Astrolith.png" alt="Astrolith" border="0"></a>
+<a href="https://ibb.co/hx5Tmx1j"><img src="https://i.ibb.co/rKPXwKfS/Astronith.png" alt="Astronith" border="0"></a>
 
 ## Reason for Building This App
 

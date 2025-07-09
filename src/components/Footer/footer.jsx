@@ -18,7 +18,7 @@ const Footer = ({ hideBGCOLOR }) => {
 
         <div className="copy-right">
           <p className="copy-right-text">
-            ©2024, Astrolith, All rights reserved.
+            ©2025, Astrolith, All rights reserved.
           </p>
           <Link href={`/`}>
             <a className="footer-link"> Terms and conditions </a>

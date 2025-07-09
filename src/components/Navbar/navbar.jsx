@@ -22,8 +22,7 @@ const Navbar = ({ theme }) => {
     <nav
       className={`navbar navbar-expand-lg change ${
         theme === "themeL" ? "light" : ""
-      }`}
-    >
+      }`}>
       <div className="container">
         <Link href="/">
           <a className="logo">
@@ -48,8 +47,7 @@ const Navbar = ({ theme }) => {
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span className="icon-bar">
             <i className="fas fa-bars"></i>
           </span>
@@ -112,13 +110,11 @@ const Navbar = ({ theme }) => {
               e.preventDefault();
               dispatch(connect());
               getData();
-            }}
-          >
+            }}>
             <a
               href=""
               className="butn bord menu curve white"
-              data-wow-delay=".5s"
-            >
+              data-wow-delay=".5s">
               <span className="account-address">
                 {blockchain.walletConnected === false ? (
                   "Connect Wallet"
